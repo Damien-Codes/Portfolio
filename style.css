@@ -1,0 +1,123 @@
+body{
+    background-color: #F0C146;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+nav{
+    margin-left: 25%;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul > li > a {
+    padding: 10px 20px;
+    margin-top: 5%;
+    color: black;
+  }
+.sous-menu{
+    
+    display: none;
+}
+.by{
+    writing-mode:tb-rl;
+    white-space: nowrap;
+    font-size: 320%;
+    margin-top: -10%;
+    margin-left: 3%;
+}
+h1{
+    margin: 0px;
+    padding: 5%;
+    text-align: center;
+    font-size: 1900%;
+    border-right: 6px solid black;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 500%;
+    
+}
+
+/* Style pour les barres */
+.barred{
+    display: flex;
+    float: left;
+    border-top: 6px solid black;
+    width: 15%;
+    margin-left: 6%;
+}
+.barreg{
+    display: flex;
+    float: right;
+    border-top: 6px solid black;
+    width: 20%;
+    margin-right: 10%;
+}
+.barrec{
+    display: flex;
+    float: center;
+    border-top: 6px solid black;
+    width: 20%;
+}
+.date{
+    display: flex;
+    float: right;
+    margin-right: 7%;
+}
+
+/* Pied de page */
+footer{
+    display: inline-block;
+    position: absolute;
+    text-align:center;
+    bottom: 0;
+    border-top: 6px solid black;
+    width:30%;
+    margin-left: 33%;
+    padding-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 10000;
+  }
+  
+
+
+  
+
+  nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
