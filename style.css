@@ -12,7 +12,7 @@ ul{
 }
 nav{
     font-family: Belanosima;
-    margin-left: 22%;
+    margin-left: 20%;
 }
 nav a{
     display: inline-block;
@@ -86,7 +86,6 @@ h2{
     display: flex;
     float: right;
     margin-right: 7%;
-    margin-top: -4vw;
 }
 
 /* Pied de page */
