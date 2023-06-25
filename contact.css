@@ -1,0 +1,66 @@
+body{
+    background-color: #F0C146;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+nav{
+    width: 100vwv;
+}
+.barreg{
+    display: flex;
+    float: left;
+    border-bottom: 6px solid black;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+}
+.barred{
+    display: flex;
+    float: right;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+    margin-right: 5vw;
+}
+.titre h1{
+    display: inline-block;
+    text-align: right;
+    width: 87vw;
+    margin-top: 14vw;
+    margin-right: 13vw;
+    font-size: 900%;
+    z-index: 100;
+}
+.by{
+    display: flex;
+    float: left;
+    text-align: left;
+    writing-mode:tb-rl;
+    white-space: nowrap;
+    font-size: 420%;
+    margin-left: 3%;
+    margin-top: -5vw;
+}
+.contact{
+    display: flex;
+    float: right;
+    text-align: left;
+    font-size: 220%;
+    margin-right: 13vw;
+    margin-top: -7vw;
+    line-height: 2em;
+    border-top: 60px solid #fff;
+    width: 40%;
+    z-index: 5;
+}
+
+/* Pied de page */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
