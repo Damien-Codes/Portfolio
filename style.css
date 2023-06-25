@@ -12,7 +12,7 @@ ul{
 }
 nav{
     font-family: Belanosima;
-    margin-left: 25%;
+    margin-left: 22%;
 }
 nav a{
     display: inline-block;
@@ -36,7 +36,7 @@ nav > ul > li > a {
     font-family: Belanosima;
     writing-mode:tb-rl;
     white-space: nowrap;
-    font-size: 320%;
+    font-size: 290%;
     margin-top: -10%;
     margin-left: 3%;
 }
@@ -46,7 +46,7 @@ h1{
     padding: 5%;
     text-align: center;
     margin-left: 2%;
-    font-size: 1900%;
+    font-size: 1700%;
     border-right: 6px solid black;
     margin-top: 8%;
     margin-right: 8%;
@@ -86,7 +86,7 @@ h2{
     display: flex;
     float: right;
     margin-right: 7%;
-    margin-top: -5vw;
+    margin-top: -6vw;
 }
 
 /* Pied de page */
