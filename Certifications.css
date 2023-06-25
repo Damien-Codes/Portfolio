@@ -9,6 +9,7 @@ nav{
 }
 .barred{
     font-family: Belanosima;
+    font-size: 180%;
     display: flex;
     float: left;
     width: 20%;
@@ -24,34 +25,34 @@ nav{
     margin-top: 3vw;
     margin-right: 8vw;
 }
-.titre a{
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    height: 200px;
-    margin-top: 14vw;
-    z-index: 100;
-
-}
 .titre a img{
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    height: 200px;
-    margin-top: 14vw;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-top: 6vw;
+    margin-bottom: 9vw;
     z-index: 100;
-
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px #000000;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 .by{
     font-family: Belanosima;
     display: flex;
-    float: right;
+    position: fixed;
+    top: 70%;
+    left: 90%;
+    transform: translate(-10%, 80%);
     text-align: left;
     writing-mode:tb-rl;
     white-space: nowrap;
     font-size: 400%;
     margin-left: 3%;
-    margin-top: -5vw;
+    margin-top: -20vw;
 }
 .contact{
     font-family: Belanosima;
