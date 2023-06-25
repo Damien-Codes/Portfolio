@@ -7,37 +7,45 @@ body{
 nav{
     width: 100vwv;
 }
-.barreg{
-    display: flex;
-    float: left;
-    border-bottom: 6px solid black;
-    width: 20%;
-    margin-top: 3vw;
-    margin-left: 8vw;
-}
 .barred{
     font-family: Belanosima;
     display: flex;
-    float: right;
+    float: left;
     width: 20%;
     margin-top: 3vw;
     margin-left: 8vw;
-    margin-right: 5vw;
 }
-.titre h1{
+.barreg{
     font-family: Belanosima;
+    display: flex;
+    float: right;
+    border-bottom: 6px solid black;
+    width: 20%;
+    margin-top: 3vw;
+    margin-right: 8vw;
+}
+.titre a{
     display: inline-block;
-    text-align: right;
-    width: 87vw;
+    text-align: center;
+    width: 300px;
+    height: 200px;
     margin-top: 14vw;
-    margin-right: 13vw;
-    font-size: 900%;
     z-index: 100;
+
+}
+.titre a img{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin-top: 14vw;
+    z-index: 100;
+
 }
 .by{
     font-family: Belanosima;
     display: flex;
-    float: left;
+    float: right;
     text-align: left;
     writing-mode:tb-rl;
     white-space: nowrap;

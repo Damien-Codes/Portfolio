@@ -11,6 +11,7 @@ ul{
     list-style-type: none;
 }
 nav{
+    font-family: Belanosima;
     margin-left: 25%;
 }
 nav a{
@@ -32,6 +33,7 @@ nav > ul > li > a {
     display: none;
 }
 .by{
+    font-family: Belanosima;
     writing-mode:tb-rl;
     white-space: nowrap;
     font-size: 320%;
@@ -39,6 +41,7 @@ nav > ul > li > a {
     margin-left: 3%;
 }
 h1{
+    font-family: Belanosima;
     margin: 0px;
     padding: 5%;
     text-align: center;
@@ -49,6 +52,7 @@ h1{
     margin-right: 8%;
 }
 h2{
+    font-family: Belanosima;
     margin: 0px;
     padding: 0px;
     margin-top: 30px;
@@ -82,7 +86,7 @@ h2{
     display: flex;
     float: right;
     margin-right: 7%;
-    margin-top: -4vw;
+    margin-top: -3vw;
 }
 
 /* Pied de page */
