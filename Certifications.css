@@ -1,11 +1,17 @@
 body{
-    background-color: #F0C146;
     margin: 0px;
     padding: 0px;
     width: 100%;
 }
+.jaune{
+    background-color: #F0C146;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 33vw;
+}
 nav{
-    width: 100vwv;
+    width: 100vw;
 }
 .barred{
     font-family: Belanosima;
@@ -15,6 +21,8 @@ nav{
     width: 20%;
     margin-top: 3vw;
     margin-left: 8vw;
+    position: relative;
+    z-index: 9;
 }
 .barreg{
     font-family: Belanosima;
@@ -24,6 +32,8 @@ nav{
     width: 20%;
     margin-top: 3vw;
     margin-right: 8vw;
+    position: relative;
+    z-index: 9;
 }
 .titre a img{
     margin: 0px;
@@ -32,27 +42,31 @@ nav{
     float: left;
     width: 400px;
     height: 300px;
-    margin-top: 6vw;
-    margin-bottom: 9vw;
+    left: 9vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
     z-index: 100;
     border-radius: 10px;
-    box-shadow: 7px 7px 7px #000000;
-    margin-left: 3vw;
+    box-shadow: inset 0 0 1em #000000, 0 0 2em #000000;
     margin-right: 3vw;
+    position: relative;
+    z-index: 9;
 }
 .by{
     font-family: Belanosima;
     display: flex;
     position: fixed;
-    top: 70%;
-    left: 90%;
-    transform: translate(-10%, 80%);
+    top: 84%;
+    left: 65%;
+    transform: translate(-15%, 140%);
     text-align: left;
     writing-mode:tb-rl;
     white-space: nowrap;
     font-size: 400%;
     margin-left: 3%;
     margin-top: -20vw;
+    position: relative;
+    z-index: 9;
 }
 .contact{
     font-family: Belanosima;
@@ -75,9 +89,7 @@ nav{
 /* Pied de page */
 footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 10px;
 }
