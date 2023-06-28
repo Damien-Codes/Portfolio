@@ -2,14 +2,19 @@ body{
     margin: 0px;
     padding: 0px;
     width: 99vw;
+    overflow: hidden;
 }
 .background {
     width: 99.3vw;
     height: 100vh;
     z-index: 1;
     background: linear-gradient(to right, #CD5C5C 67%, white 33%);
+    
 }
-
+a{
+    text-decoration: none;
+    color: #000000;
+}
 .barreg{
     font-family: Belanosima;
     display: flex;
@@ -36,42 +41,99 @@ body{
     z-index: 10;
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    background-color: #ca5b5b;
     display: flex;
     float: left;
     margin-left: 3vw;
-    width: 15vw;
-    height: 35vh;
+    width: 400px;
+    height: 450px;
     border-radius: 10px;
-    box-shadow: inset 0 0 1em #000000, 0 0 2em #000000;
-    /* margin: 0px;
+    box-shadow: inset 0 0 3em #000000, 0 0 2em #CD5C5C;
+    margin-top: -80vh;
+    margin-left: 15vw;
+    animation: 2s linear infinite;
+}
+.A:hover{
+    z-index: 10;
+    margin: 0px;
     padding: 0px;
+    background-color: #ca5b5b;
     display: flex;
     float: left;
+    margin-left: 3vw;
     width: 400px;
-    height: 300px;
-    left: 9vw;
-    margin-top: 2vw;
-    margin-bottom: 3vw;
-    z-index: 100;
+    height: 450px;
     border-radius: 10px;
     box-shadow: inset 0 0 1em #000000, 0 0 2em #000000;
-    margin-right: 3vw;
-    position: relative;
-    z-index: 9; */
+    margin-top: -80vh;
+    margin-left: 15vw;
+    
+}
+.A p{
+    display: flex;
+    font-family: Belanosima;
+    font-size: 40px;
+    margin-left: 28%;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgb(119, 84, 84);
+}
+.A .horloge{
+    display: flex;
+    top: 35%;
+    left: 19%;
+    position: absolute;
+    float: center;
+    width: 200px;
+    height:  200px;
+    text-shadow: 3px 3px 2px rgb(119, 84, 84);
 }
 .B{
     z-index: 10;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(77, 75, 75);
+    background-color: #ca5b5b;
     display: flex;
     float: left;
     margin-left: 2vw;
-    width: 15vw;
-    height: 35vh;
+    width: 400px;
+    height: 450px;
     border-radius: 10px;
-    box-shadow: inset 0 0 1em #000000, 0 0 2em #000000;
+    box-shadow: inset 0 0 0.5em #000000, 0 0 2em #000000;
+    margin-top: -80vh;
+    margin-left: 35vw;
+}
+.B:hover{
+    z-index: 10;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ca5b5b;
+    display: flex;
+    float: left;
+    margin-left: 2vw;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 4em #000000, 0 0 2em #ce5a5a;
+    margin-top: -80vh;
+    margin-left: 35vw;
+}
+.B p{
+    display: flex;
+    font-family: Belanosima;
+    font-size: 40px;
+    margin-left: 28%;
+    text-align: center;
+    text-shadow: 3px 3px 2px rgb(119, 84, 84);
+}
+.B .point{
+    display: flex;
+    top: 35%;
+    left: 39%;
+    position: absolute;
+    float: center;
+    width: 200px;
+    height:  200px;
+    text-shadow: 3px 3px 2px rgb(119, 84, 84);
 }
 .by{
     margin: 0px;
