@@ -120,9 +120,9 @@ a{
 .B p{
     display: flex;
     font-family: Belanosima;
-    font-size: 40px;
-    margin-left: 28%;
+    font-size: 35px;
     text-align: center;
+    padding: 1%;
     text-shadow: 3px 3px 2px rgb(119, 84, 84);
 }
 .B .point{

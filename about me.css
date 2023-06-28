@@ -1,0 +1,85 @@
+body{
+    background-color: #FF914D;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+nav{
+    width: 100vwv;
+}
+.barreg{
+    display: flex;
+    float: left;
+    border-bottom: 6px solid black;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+}
+.barred{
+    font-family: Belanosima;
+    display: flex;
+    float: right;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+    margin-right: 5vw;
+}
+.titre h1{
+    font-family: Belanosima;
+    display: inline-block;
+    text-align: left;
+    width: 87vw;
+    margin-top: 10vw;
+    margin-left: 27%;
+    font-size: 900%;
+    z-index: 100;
+}
+.by{
+    font-family: Belanosima;
+    display: flex;
+    float: right;
+    text-align: left;
+    writing-mode:tb-rl;
+    white-space: nowrap;
+    font-size: 300%;
+    margin-left: 3%;
+    margin-top: 5vw;
+}
+.about{
+    font-family: Belanosima;
+    display: flex;
+    float: left;
+    text-align: left;
+    font-size: 111%;
+    margin-right: 13vw;
+    margin-top: -6vw;
+    margin-left: 11%;
+    line-height: 2em;
+    border-top: 60px solid #fff;
+    width: 45%;
+    z-index: 5;
+}
+.about p{
+    font-family: Belanosima;
+    display: flex;
+    float: center;
+    font-size: 110%;
+    margin-left: 5%;
+    line-height: 2em;
+    z-index: 5;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Pied de page */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
