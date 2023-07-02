@@ -441,3 +441,277 @@ nav li:hover .submenu {
         padding-top: 3%;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Laptop */
+    body{
+        background-color: #F0C146;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* Début du loader les 3 petit point */
+    .loader-container{
+        font-family: Belanosima;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 9vw;
+        margin-top: -8vh;
+        transition: opacity 2s ease-in-out;
+    }
+    .dot{
+        font-family: Belanosima;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #000;
+        margin: 0 15px;
+        animation: loader infinite 0.3s alternate;
+    }
+    .d2{
+        animation-delay: 0.01s;
+    }
+    .d3{
+        animation-delay: 0.1s;
+    }
+    @keyframes loader {
+        100%{
+            transform: translateY(-30px);
+        }    
+    }
+    /* Fin du loader les 3 petit point */
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        font-family: Belanosima;
+        vertical-align: center;
+        display: flex;
+        justify-content: left;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    nav > ul > li{
+        float: left;
+        position: relative;
+    }
+    nav > ul > li > a {
+        padding: 10px 20px;
+        margin-top: 5%;
+        color: black;
+      }
+    .sous-menu{
+        
+        display: none;
+    }
+    .by{
+        font-family: Belanosima;
+        writing-mode:tb-rl;
+        white-space: nowrap;
+        font-size: 240%;
+        margin-top: 25vh;
+        margin-left: 3%;
+    }
+    h1{
+        font-family: Belanosima;
+        margin: 0px;
+        padding: 5%;
+        text-align: center;
+        font-size: 12vw;
+        margin-top: 22%;
+        margin-right: 15vw;
+        border: hidden;
+    }
+    h2{
+        font-family: Belanosima;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        text-align: right;
+        font-size: 500%;
+        
+    }
+    
+    /* Style pour les barres */
+    .barred{
+        display: flex;
+        float: left;
+        border-top: 6px solid black;
+        width: 15%;
+        margin-left: 6%;
+    }
+    .barreg{
+        display: flex;
+        float: right;
+        border-top: 6px solid black;
+        width: 20%;
+        margin-right: 10%;
+    }
+    .barrec{
+        display: flex;
+        float: center;
+        border-top: 6px solid black;
+        width: 20%;
+    }
+    .date{
+        display: flex;
+        float: right;
+        margin-top: -5vh;
+    }
+    
+    /* Pied de page */
+    footer{
+        display: inline-block;
+        position: absolute;
+        text-align:center;
+        bottom: 0;
+        border-top: 6px solid black;
+        width:30%;
+        margin-left: 33%;
+        padding-top: 3%;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    /* Laptop */
+    body{
+        background-color: #F0C146;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* Début du loader les 3 petit point */
+    .loader-container{
+        font-family: Belanosima;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 9vw;
+        margin-top: -4vh;
+        transition: opacity 2s ease-in-out;
+    }
+    .dot{
+        font-family: Belanosima;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #000;
+        margin: 0 15px;
+        animation: loader infinite 0.3s alternate;
+    }
+    .d2{
+        animation-delay: 0.01s;
+    }
+    .d3{
+        animation-delay: 0.1s;
+    }
+    @keyframes loader {
+        100%{
+            transform: translateY(-10px);
+        }    
+    }
+    /* Fin du loader les 3 petit point */
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        font-family: Belanosima;
+        vertical-align: center;
+        display: flex;
+        justify-content: left;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    nav > ul > li{
+        float: left;
+        position: relative;
+    }
+    nav > ul > li > a {
+        padding: 10px 20px;
+        margin-top: 5%;
+        color: black;
+      }
+    .sous-menu{
+        
+        display: none;
+    }
+    .by{
+        font-family: Belanosima;
+        writing-mode:tb-rl;
+        white-space: nowrap;
+        font-size: 240%;
+        margin-top: 25vh;
+        margin-left: 3%;
+    }
+    h1{
+        font-family: Belanosima;
+        margin: 0px;
+        padding: 5%;
+        text-align: center;
+        font-size: 10vw;
+        margin-top: 22%;
+        margin-right: 15vw;
+        border: hidden;
+    }
+    h2{
+        font-family: Belanosima;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        text-align: right;
+        font-size: 500%;
+        
+    }
+    
+    /* Style pour les barres */
+    .barred{
+        display: flex;
+        float: left;
+        border-top: 6px solid black;
+        width: 15%;
+        margin-left: 6%;
+    }
+    .barreg{
+        display: flex;
+        float: right;
+        border-top: 6px solid black;
+        width: 20%;
+        margin-right: 10%;
+    }
+    .barrec{
+        display: flex;
+        float: center;
+        border-top: 6px solid black;
+        width: 20%;
+    }
+    .date{
+        display: flex;
+        float: right;
+        margin-top: -5vh;
+    }
+    
+    /* Pied de page */
+    footer{
+        display: inline-block;
+        position: absolute;
+        text-align:center;
+        bottom: 0;
+        border-top: 6px solid black;
+        width:30%;
+        margin-left: 33%;
+        padding-top: 3%;
+    }
+}
