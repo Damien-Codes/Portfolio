@@ -481,14 +481,14 @@ nav li:hover .submenu {
         display: flex;
         justify-content: right;
         align-items: center;
-        margin-right: 8vw;
-        margin-top: -12vh;
+        margin-right: 13vw;
+        margin-top: -10vh;
         transition: opacity 2s ease-in-out;
     }
     .dot{
         font-family: Belanosima;
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
         border-radius: 50%;
         background: #000;
         margin: 0 15px;
@@ -622,14 +622,14 @@ nav li:hover .submenu {
         display: flex;
         justify-content: right;
         align-items: center;
-        margin-right: 9vw;
-        margin-top: -8vh;
+        margin-right: 13vw;
+        margin-top: -7vh;
         transition: opacity 2s ease-in-out;
     }
     .dot{
         font-family: Belanosima;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
         border-radius: 50%;
         background: #000;
         margin: 0 15px;
