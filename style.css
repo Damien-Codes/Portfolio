@@ -69,8 +69,8 @@ nav > ul > li > a {
     font-family: Belanosima;
     writing-mode:tb-rl;
     white-space: nowrap;
-    font-size: 290%;
-    margin-top: -10%;
+    font-size: 260%;
+    margin-top: 7vh;
     margin-left: 3%;
 }
 h1{
@@ -78,7 +78,7 @@ h1{
     margin: 0px;
     padding: 5%;
     text-align: center;
-    font-size: 1700%;
+    font-size: 1750%;
     border-right: 6px solid black;
     margin-top: 8%;
     margin-right: 8%;
@@ -118,6 +118,7 @@ h2{
     display: flex;
     float: right;
     margin-right: 7%;
+    margin-top: -5vh;
 }
 
 /* Pied de page */
