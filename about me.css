@@ -8,6 +8,9 @@ body{
 nav{
     width: 100vwv;
 }
+a{
+    text-decoration: none;
+}
 .barreg{
     display: flex;
     float: left;
@@ -24,7 +27,54 @@ nav{
     margin-top: 3vw;
     margin-left: 8vw;
     margin-right: 5vw;
+    font-size: 150%;
 }
+/* début de l'effet va et viens */
+.blinking-text{
+    text-align: center;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+    color: #000000;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.blinking-text span{
+    position: relative;
+    display: inline-block;
+}
+.blinking-text span::after{
+    content: attr(data-letter);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    color: #FF914D;
+    text-shadow: 0 0 2px #ffd7af, 0 0 10px #FF914D;
+    opacity: 0;
+    animation: blinking 1.25s ease-in-out infinite;
+}
+@keyframes blinking {
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.blinking-text span:nth-child(2)::after{animation-delay: 0.1s;}
+.blinking-text span:nth-child(3)::after{animation-delay: 0.2s;}
+.blinking-text span:nth-child(4)::after{animation-delay: 0.3s;}
+.blinking-text span:nth-child(5)::after{animation-delay: 0.4s;}
+.blinking-text span:nth-child(6)::after{animation-delay: 0.5s;}
+.blinking-text span:nth-child(7)::after{animation-delay: 0.6s;}
+/* fin de l'effet va et viens */
 .titre h1{
     font-family: Belanosima;
     display: inline-block;
