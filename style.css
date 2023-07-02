@@ -305,10 +305,6 @@ nav li:hover .submenu {
     padding: 0px;
     z-index: 10000;
   }
-  
-
-
-  
 
   nav > ul::after {
     content: "";
@@ -317,13 +313,13 @@ nav li:hover .submenu {
   }
 
 /* Début des Media query */
-@media screen and (min-width: 2600px) {
+@media screen and (min-width: 2560px) {
     /* Laptop 4K */
     .menu-wrap {
         display: none;
       }
 }
-@media screen and (min-width: 1440px) and (max-width: 2300px) {
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
     /* Laptop L */
     .menu-wrap {
         display: none;
