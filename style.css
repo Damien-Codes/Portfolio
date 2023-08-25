@@ -10,7 +10,7 @@ a{
 }
 /* Début du loader les 3 petit point */
 .loader-container{
-    font-family: Belanosima;
+    font-family: Kanit;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -19,7 +19,7 @@ a{
     transition: opacity 2s ease-in-out;
 }
 .dot{
-    font-family: Belanosima;
+    font-family: Kanit;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -43,7 +43,7 @@ ul{
     list-style-type: none;
 }
 nav{
-    font-family: Belanosima;
+    font-family: Kanit;
     vertical-align: center;
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@ nav > ul > li > a {
     display: none;
 }
 .by{
-    font-family: Belanosima;
+    font-family: Kanit;
     writing-mode:tb-rl;
     white-space: nowrap;
     font-size: 260%;
@@ -75,7 +75,7 @@ nav > ul > li > a {
     margin-left: 3%;
 }
 h1{
-    font-family: Belanosima;
+    font-family: Kanit;
     margin: 0px;
     padding: 5%;
     text-align: center;
@@ -85,7 +85,7 @@ h1{
     margin-right: 8%;
 }
 h2{
-    font-family: Belanosima;
+    font-family: Kanit;
     margin: 0px;
     padding: 0px;
     margin-top: 30px;
@@ -330,7 +330,7 @@ nav li:hover .submenu {
     }
     /* Début du loader les 3 petit point */
     .loader-container{
-        font-family: Belanosima;
+        font-family: Kanit;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -339,7 +339,7 @@ nav li:hover .submenu {
         transition: opacity 2s ease-in-out;
     }
     .dot{
-        font-family: Belanosima;
+        font-family: Kanit;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -363,7 +363,7 @@ nav li:hover .submenu {
         list-style-type: none;
     }
     nav{
-        font-family: Belanosima;
+        font-family: Kanit;
         vertical-align: center;
         display: flex;
         justify-content: center;
@@ -387,7 +387,7 @@ nav li:hover .submenu {
         display: none;
     }
     .by{
-        font-family: Belanosima;
+        font-family: Kanit;
         writing-mode:tb-rl;
         white-space: nowrap;
         font-size: 240%;
@@ -395,7 +395,7 @@ nav li:hover .submenu {
         margin-left: 3%;
     }
     h1{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 5%;
         text-align: center;
@@ -405,7 +405,7 @@ nav li:hover .submenu {
         margin-right: 8%;
     }
     h2{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 0px;
         margin-top: 30px;
@@ -471,7 +471,7 @@ nav li:hover .submenu {
     }
     /* Début du loader les 3 petit point */
     .loader-container{
-        font-family: Belanosima;
+        font-family: Kanit;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -480,7 +480,7 @@ nav li:hover .submenu {
         transition: opacity 2s ease-in-out;
     }
     .dot{
-        font-family: Belanosima;
+        font-family: Kanit;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -504,7 +504,7 @@ nav li:hover .submenu {
         list-style-type: none;
     }
     nav{
-        font-family: Belanosima;
+        font-family: Kanit;
         vertical-align: center;
         display: flex;
         justify-content: center;
@@ -528,7 +528,7 @@ nav li:hover .submenu {
         display: none;
     }
     .by{
-        font-family: Belanosima;
+        font-family: Kanit;
         writing-mode:tb-rl;
         white-space: nowrap;
         font-size: 240%;
@@ -536,7 +536,7 @@ nav li:hover .submenu {
         margin-left: 3%;
     }
     h1{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 5%;
         text-align: center;
@@ -546,7 +546,7 @@ nav li:hover .submenu {
         margin-right: 8%;
     }
     h2{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 0px;
         margin-top: 30px;
@@ -612,7 +612,7 @@ nav li:hover .submenu {
     }
     /* Début du loader les 3 petit point */
     .loader-container{
-        font-family: Belanosima;
+        font-family: Kanit;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -621,7 +621,7 @@ nav li:hover .submenu {
         transition: opacity 2s ease-in-out;
     }
     .dot{
-        font-family: Belanosima;
+        font-family: Kanit;
         width: 35px;
         height: 35px;
         border-radius: 50%;
@@ -645,7 +645,7 @@ nav li:hover .submenu {
         list-style-type: none;
     }
     nav{
-        font-family: Belanosima;
+        font-family: Kanit;
         vertical-align: center;
         display: flex;
         justify-content: center;
@@ -669,7 +669,7 @@ nav li:hover .submenu {
         display: none;
     }
     .by{
-        font-family: Belanosima;
+        font-family: Kanit;
         writing-mode:tb-rl;
         white-space: nowrap;
         font-size: 240%;
@@ -677,7 +677,7 @@ nav li:hover .submenu {
         margin-left: 3%;
     }
     h1{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 5%;
         text-align: center;
@@ -687,7 +687,7 @@ nav li:hover .submenu {
         border: hidden;
     }
     h2{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 0px;
         margin-top: 30px;
@@ -753,7 +753,7 @@ nav li:hover .submenu {
     }
     /* Début du loader les 3 petit point */
     .loader-container{
-        font-family: Belanosima;
+        font-family: Kanit;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -762,7 +762,7 @@ nav li:hover .submenu {
         transition: opacity 2s ease-in-out;
     }
     .dot{
-        font-family: Belanosima;
+        font-family: Kanit;
         width: 20px;
         height: 20px;
         border-radius: 50%;
@@ -786,7 +786,7 @@ nav li:hover .submenu {
         list-style-type: none;
     }
     nav{
-        font-family: Belanosima;
+        font-family: Kanit;
         vertical-align: center;
         display: flex;
         justify-content: left;
@@ -810,7 +810,7 @@ nav li:hover .submenu {
         display: none;
     }
     .by{
-        font-family: Belanosima;
+        font-family: Kanit;
         writing-mode:tb-rl;
         white-space: nowrap;
         font-size: 240%;
@@ -818,7 +818,7 @@ nav li:hover .submenu {
         margin-left: 3%;
     }
     h1{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 5%;
         text-align: center;
@@ -828,7 +828,7 @@ nav li:hover .submenu {
         border: hidden;
     }
     h2{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 0px;
         margin-top: 30px;
@@ -876,7 +876,9 @@ nav li:hover .submenu {
         padding-top: 3%;
     }
 }
-@media screen and (min-width: 425px) and (max-width: 768px) {
+
+/* media query for phone */
+@media screen and (min-width: 320px) and (max-width: 768px) {
     /* Laptop */
     .menu-wrap {
         display: block;
@@ -893,7 +895,7 @@ nav li:hover .submenu {
     }
     /* Début du loader les 3 petit point */
     .loader-container{
-        font-family: Belanosima;
+        font-family: Kanit;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -902,7 +904,7 @@ nav li:hover .submenu {
         transition: opacity 2s ease-in-out;
     }
     .dot{
-        font-family: Belanosima;
+        font-family: Kanit;
         width: 10px;
         height: 10px;
         border-radius: 50%;
@@ -926,13 +928,13 @@ nav li:hover .submenu {
         list-style-type: none;
     }
     nav{
-        font-family: Belanosima;
+        font-family: Kanit;
         vertical-align: center;
         display: flex;
         justify-content: left;
     }
     nav .nav{
-        font-family: Belanosima;
+        font-family: Kanit;
         vertical-align: center;
         display: none;
         justify-content: left;
@@ -956,28 +958,28 @@ nav li:hover .submenu {
         display: none;
     }
     .by{
-        font-family: Belanosima;
+        font-family: Kanit;
         writing-mode:tb-rl;
         white-space: nowrap;
-        font-size: 180%;
-        margin-top: 25vh;
-        margin-left: 3%;
+        font-size: 7vw;
+        margin-top: 20vh;
+        margin-left: -2vw;
     }
     h1{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 5%;
         text-align: center;
-        font-size: 15vw;
-        margin-top: 22%;
+        font-size: 13vw;
+        margin-top: 30vh;
         margin-right: 30vw;
         border: hidden;
     }
     h2{
-        font-family: Belanosima;
+        font-family: Kanit;
         margin: 0px;
         padding: 0px;
-        margin-top: 30px;
+        margin-top: 30vh;
         text-align: right;
         font-size: 300%;
         
@@ -1008,18 +1010,19 @@ nav li:hover .submenu {
     .date{
         display: flex;
         float: right;
+        font-size: 10vw;
         margin-top: -5vh;
     }
     
     /* Pied de page */
     footer{
-        display: inline-block;
+        display: none;
         position: absolute;
-        text-align:center;
+        text-align: left;
         bottom: 0;
         border-top: 6px solid black;
-        width:30%;
-        margin-left: 33%;
-        padding-top: 3%;
+        width: 45%;
+        margin-left: 50%;
+        padding-top: 8%;
     }
 }

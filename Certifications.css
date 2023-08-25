@@ -14,7 +14,7 @@ a{
     text-decoration: none;
 }
 .barred{
-    font-family: Belanosima;
+    font-family: kanit;
     font-size: 150%;
     display: flex;
     float: left;
@@ -76,7 +76,7 @@ a{
 .blinking-text span:nth-child(13)::after{animation-delay: 1.2s;}
 /* fin de l'effet va et viens */
 .barreg{
-    font-family: Belanosima;
+    font-family: kanit;
     display: flex;
     float: right;
     border-bottom: 6px solid black;
@@ -104,7 +104,7 @@ a{
     z-index: 9;
 }
 .by{
-    font-family: Belanosima;
+    font-family: kanit;
     display: flex;
     position: fixed;
     top: 84%;
@@ -120,7 +120,7 @@ a{
     z-index: 9;
 }
 .contact{
-    font-family: Belanosima;
+    font-family: kanit;
     display: flex;
     float: right;
     text-align: left;

@@ -16,7 +16,7 @@ a{
     color: #000000;
 }
 .barreg{
-    font-family: Belanosima;
+    font-family: kanit;
     display: flex;
     float: left;    
     border-bottom: 6px solid black;
@@ -27,7 +27,7 @@ a{
     z-index: 9;
 }
 .barred{
-    font-family: Belanosima;
+    font-family: kanit;
     display: flex;
     float: right;
     width: 20%;
@@ -117,7 +117,7 @@ a{
 }
 .A p{
     display: flex;
-    font-family: Belanosima;
+    font-family: kanit;
     font-size: 40px;
     margin-left: 28%;
     text-align: center;
@@ -163,9 +163,9 @@ a{
     margin-top: -80vh;
     margin-left: 35vw;
 }
-.B p{
+.Z p{
     display: flex;
-    font-family: Belanosima;
+    font-family: kanit;
     font-size: 35px;
     text-align: center;
     padding: 1%;
@@ -184,7 +184,7 @@ a{
 .by{
     margin: 0px;
     padding: 0px;
-    font-family: Belanosima;
+    font-family: kanit;
     display: flex;
     position: fixed;
     top: 60%;
@@ -200,7 +200,7 @@ a{
     z-index: 9;
 }
 .contact{
-    font-family: Belanosima;
+    font-family: kanit;
     display: flex;
     float: right;
     text-align: left;
