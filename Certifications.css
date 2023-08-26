@@ -101,6 +101,7 @@ a{
 
 /* Pied de page */
 footer {
+    font-family: Kanit;
     position: fixed;
     bottom: 0;
     width: 100%;

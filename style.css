@@ -124,6 +124,7 @@ h2{
 
 /* Pied de page */
 footer{
+    font-family: Kanit;
     display: inline-block;
     position: absolute;
     text-align:center;

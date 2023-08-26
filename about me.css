@@ -3,7 +3,6 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    overflow: hidden;
 }
 nav{
     width: 100vwv;
@@ -37,15 +36,12 @@ a{
     z-index: 100;
 }
 .by{
-    font-family: kanit;
-    display: flex;
-    float: right;
-    text-align: left;
+    font-family: Kanit;
     writing-mode:tb-rl;
     white-space: nowrap;
-    font-size: 300%;
-    margin-right: 3%;
-    margin-top: 5vw;
+    font-size: 260%;
+    margin-top: 7vh;
+    margin-left: 30vh;
 }
 .about{
     font-family: kanit;
@@ -76,7 +72,8 @@ a{
 }
 
 /* Pied de page */
-footer {
+footer{
+    font-family: Kanit;
     position: fixed;
     left: 0;
     bottom: 0;

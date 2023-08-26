@@ -44,6 +44,7 @@ margin-left: 8vw;
 }
 /* Pied de page */
 footer {
+    font-family: kanit;
     position: fixed;
     bottom: 0;
     width: 100%;
