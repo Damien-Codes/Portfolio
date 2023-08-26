@@ -3,6 +3,7 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 a{
@@ -28,60 +29,57 @@ a{
     margin-right: -3vw;
     font-size: 300%;
 }
-
-
-
-
-
-.titre a img{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    float: left;
+.grille {
+    max-width: 2560px;
+    width: 85vw;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    margin: 50px auto;
+    /* border: 1px solid #333; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content: center;
+    grid-gap: 50px;
+}
+.grid-item {
     width: 400px;
     height: 300px;
-    left: 9vw;
-    margin-top: 2vw;
-    margin-bottom: 3vw;
-    z-index: 100;
+    background: #333;
+    /* ombres */
     border-radius: 10px;
-    box-shadow: inset 0 0 1em #000000, 0 0 2em #000000;
-    margin-right: 3vw;
-    position: relative;
-    z-index: 9;
+    box-shadow:6px 6px 12px #5e6337;
 }
+.grid-item a img {
+    width: 400px;
+    height: 300px;
+    background: #333;
+    border-radius: 10px;
+    -moz-box-shadow: 6px 6px 12px #888;
+    -webkit-box-shadow: 6px 6px 12px #888;
+    box-shadow:6px 6px 12px #888;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.grid-item a img:hover {
+    transform: scale(1.22);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
 .by{
     font-family: kanit;
-    display: flex;
     position: fixed;
+    bottom: 0;
     top: 84%;
-    left: 65%;
+    left: 91%;
     transform: translate(-15%, 140%);
     text-align: left;
     writing-mode:tb-rl;
     white-space: nowrap;
     font-size: 400%;
     margin-left: 3%;
-    margin-top: -20vw;
+    margin-top: -49vw;
     position: relative;
     z-index: 9;
-}
-.contact{
-    font-family: kanit;
-    display: flex;
-    float: right;
-    text-align: left;
-    font-size: 220%;
-    margin-right: 13vw;
-    margin-top: -7vw;
-    line-height: 2em;
-    border-top: 60px solid #fff;
-    width: 40%;
-    z-index: 5;
-}
-.contact a{
-    text-decoration: none;
-    color: black;
 }
 
 /* Pied de page */
@@ -91,3 +89,29 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+.box {
+    width: 78vw;
+    height: 5vh;
+    border: 1px solid #999;
+    font-size: 170%;
+    margin-top: 12vh;
+    position: fixed;
+    left: 11vw;
+    text-align: center;
+    color: #000000;
+    background-color: #eee;
+    border-radius: 10px;
+    -moz-box-shadow: 6px 6px 12px #888;
+    -webkit-box-shadow: 6px 6px 12px #888;
+    box-shadow:6px 6px 12px #888;
+  }
