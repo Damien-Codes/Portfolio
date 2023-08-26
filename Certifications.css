@@ -29,6 +29,23 @@ a{
     margin-right: -3vw;
     font-size: 300%;
 }
+/* en cours de developement */
+/* .box {
+    width: 78vw;
+    height: 5vh;
+    border: 1px solid #999;
+    font-size: 170%;
+    margin-top: 12vh;
+    position: absolute;
+    left: 11vw;
+    text-align: center;
+    color: #000000;
+    background-color: #eee;
+    border-radius: 10px;
+    -moz-box-shadow: 6px 6px 12px #888;
+    -webkit-box-shadow: 6px 6px 12px #888;
+    box-shadow:6px 6px 12px #888;
+} */
 .grille {
     max-width: 2560px;
     width: 85vw;
@@ -89,29 +106,3 @@ footer {
     width: 100%;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-.box {
-    width: 78vw;
-    height: 5vh;
-    border: 1px solid #999;
-    font-size: 170%;
-    margin-top: 12vh;
-    position: fixed;
-    left: 11vw;
-    text-align: center;
-    color: #000000;
-    background-color: #eee;
-    border-radius: 10px;
-    -moz-box-shadow: 6px 6px 12px #888;
-    -webkit-box-shadow: 6px 6px 12px #888;
-    box-shadow:6px 6px 12px #888;
-  }
