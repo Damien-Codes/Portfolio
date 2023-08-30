@@ -30,7 +30,7 @@ a{
     font-size: 300%;
 }
 /* en cours de developement */
-/* .box {
+#box {
     width: 78vw;
     height: 5vh;
     border: 1px solid #999;
@@ -45,7 +45,10 @@ a{
     -moz-box-shadow: 6px 6px 12px #888;
     -webkit-box-shadow: 6px 6px 12px #888;
     box-shadow:6px 6px 12px #888;
-} */
+}
+.content{
+    display: none;
+}
 .grille {
     max-width: 2560px;
     width: 85vw;
@@ -81,12 +84,22 @@ a{
     transform: scale(1.22);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
+.h1 {
+    font-family: kanit;
+    display: flex;
+    font-size: 250%;
+    /* color: #757953; */
+    justify-content: left;
+    align-items: center;
+    padding-top: 45vh;
+    z-index: auto;
+}
 
 .by{
     font-family: kanit;
+    color: #00000070;
     position: fixed;
-    bottom: 0;
-    top: 84%;
+    top: 120%;
     left: 91%;
     transform: translate(-15%, 140%);
     text-align: left;
@@ -94,8 +107,8 @@ a{
     white-space: nowrap;
     font-size: 400%;
     margin-left: 3%;
-    margin-top: -49vw;
-    position: relative;
+    margin-top: -59vw;
+    position: fixed; 
     z-index: 9;
 }
 

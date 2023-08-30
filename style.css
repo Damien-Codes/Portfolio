@@ -281,23 +281,6 @@ footer{
 	opacity: 1;
 }
 /* fin du menu  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav li:hover .submenu {
     display: inline-block;
     position: absolute;
