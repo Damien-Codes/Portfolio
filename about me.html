@@ -151,39 +151,15 @@
             <div class="sec-top">
                 <h1>Contact <span>Me</span></h1>
             </div>
-            <!DOCTYPE html>
-            <html lang="fr">
-            <head>
-              <meta charset="UTF-8">
-              <title>Formulaire de contact</title>
-            </head>
-            <body>
-              <h1>Formulaire de contact</h1>
-            
-              <ul>
-                <li>Nom : {{ name }}</li>
-                <li>Adresse e-mail : {{ email }}</li>
-                <li>Texterra : {{ texterra }}</li>
-              </ul>
-            
-              <script src="https://cdn.jsdelivr.net/npm/texterra@1.1.0/dist/texterra.min.js"></script>
-              <script>
-                function validateTexterra() {
-                  const texterra = document.querySelector("textarea[name='texterra']").value;
-                  const texterraValidator = new TexterraValidator();
-                  const errors = texterraValidator.validate(texterra);
-            
-                  if (errors.length > 0) {
-                    alert("Le texterra ne respecte pas la politique de confidentialité.");
-                    return false;
-                  }
-            
-                  return true;
-                }
-            
-                // Écoutez le clic sur le bouton de soumission
-                document.querySelector("input[type='submit']").addEventListener("click", validateTexterra);
-              </script>
+              <form action="/submit" method="post">
+                <input type="text" name="name" placeholder="Votre nom">
+                <input type="email" name="email" placeholder="Votre adresse e-mail">
+                <div class="texterra">
+                  <label for="texterra">Texterra</label>
+                  <textarea name="texterra" id="texterra"></textarea>
+                  <input type="submit" value="Envoyer">
+                </div>
+              </form>
             
               <script src="script.js"></script>
             </body>
