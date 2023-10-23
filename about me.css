@@ -242,6 +242,13 @@ a{
     color: #fff;
     font-size: 25px;
   }
+  footer {
+    font-family: kanit;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
 
 /* Media */
 
