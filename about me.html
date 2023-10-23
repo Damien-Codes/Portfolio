@@ -160,12 +160,30 @@
             <body>
               <h1>Formulaire de contact</h1>
             
-              <form action="" method="post" class="contact-form">
-                <input type="text" id="name" name="name" placeholder="Votre nom" class="contact-form-input">
-                <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" class="contact-form-input">
-                <textarea id="message" name="message" placeholder="Votre message" class="contact-form-textarea"></textarea>
-                <input type="submit" value="Envoyer" class="contact-form-button">
-              </form>
+              <ul>
+                <li>Nom : {{ name }}</li>
+                <li>Adresse e-mail : {{ email }}</li>
+                <li>Texterra : {{ texterra }}</li>
+              </ul>
+            
+              <script src="https://cdn.jsdelivr.net/npm/texterra@1.1.0/dist/texterra.min.js"></script>
+              <script>
+                function validateTexterra() {
+                  const texterra = document.querySelector("textarea[name='texterra']").value;
+                  const texterraValidator = new TexterraValidator();
+                  const errors = texterraValidator.validate(texterra);
+            
+                  if (errors.length > 0) {
+                    alert("Le texterra ne respecte pas la politique de confidentialité.");
+                    return false;
+                  }
+            
+                  return true;
+                }
+            
+                // Écoutez le clic sur le bouton de soumission
+                document.querySelector("input[type='submit']").addEventListener("click", validateTexterra);
+              </script>
             
               <script src="script.js"></script>
             </body>
