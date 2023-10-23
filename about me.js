@@ -18,18 +18,3 @@ window.onscroll = function(){
     btnMenu.classList.remove('fa-times')
     Menu.classList.remove('active')
 }
-function submitForm() {
-    // Récupérez les données du formulaire
-    const name = document.querySelector("input[name='name']").value;
-    const email = document.querySelector("input[name='email']").value;
-    const texterra = document.querySelector("textarea[name='texterra']").value;
-  
-    // Envoyez les données à la page de traitement
-    const xhr = new XMLHttpRequest();
-    xhr.open("POST", "/submit");
-    xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.send(JSON.stringify({ name, email, texterra }));
-  }
-  
-  // Écoutez le clic sur le bouton de soumission
-  document.querySelector("input[type='submit']").addEventListener("click", submitForm)
