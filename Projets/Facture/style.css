@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(121, 191, 241);
+    text-decoration-line: none;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: teal;
+    display: flex;
+    width: auto;
+}
+img{
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-bottom: 0.7%;
+    width: 9.872%;
+}
+.block2{
+    justify-content: center;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.block3{
+    justify-content: right;
+    text-align: left;
+}
+section{
+    display: flex;
+}
+.condition{
+    display: block;
+    text-align: right;
+    margin-right: 15%;
+}
+.Destination{
+    display: block;
+    margin-left: 10%;
+    margin-right: 35%;  
+}
+.Envoyé{
+    display: block;
+    justify-content: center;
+}
+table{
+    background-color: #5db0b7;
+    width: 95%;
+    border: solid rgb(0, 0, 0);
+    margin-left: 2%;
+}
+table tr{
+    background-color: rgb(177, 177, 177);
+    border: none;
+}
+.DESC{
+    border: solid rgb(0, 0, 0);
+    background-color: teal;
+    color: aliceblue;
+}
+.bas{
+    display: flex;
+}
+.remarques{
+    display: block;
+    justify-content: left;
+    margin-left: 3%;
+}
+.sous-total{
+    display: block;
+    justify-content: right;
+    text-align: right;
+    margin-left: 51%;
+}
+.total_a_droite{
+    display: block;
+    justify-content: right;
+    text-align: right;
+    float: left;
+    font-size: 245%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+button{
+    margin: 5px;
+    padding-left: 0,8%;
+}
+input{
+    width: 97.5%;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+}
+input:hover{
+    border: solid rgb(237, 134, 0) 2px 2px 2px 2px;
+}
+button:hover{
+    box-shadow: rgb(255, 145, 0) 2px 2px;
+}
+@media screen and (max-width: 680px) {
+    nav div {
+    display: none;
+}
+section div {
+    width: 100%;
+    text-align: center;
+}
+.button:hover .submenu {
+    display: block;
+    position: static;
+}
+}
