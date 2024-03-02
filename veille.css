@@ -1,0 +1,83 @@
+body{
+    background-color: #0043fa;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.barreg{
+    display: flex;
+    float: left;
+    border-bottom: 6px solid black;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+}
+.barred{
+    font-family: kanit;
+    display: flex;
+    float: right;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+    margin-right: -3.3vw;
+    font-size: 300%;
+}
+a{
+    text-decoration: none;
+}
+
+main .sujet{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    background-color: #68a7f885;
+    border: 1px solid #000000; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 1px 30px rgb(93, 105, 175);
+    padding: 2vh;
+    margin: 2vw;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 16%;
+    font-family: Kanit;
+}
+main .applications{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    background-color: #68a7f885;
+    border: 1px solid #000000; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 1px 30px rgb(93, 105, 175);
+    padding: 2vh;
+    margin: 2vw;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 16%;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .Mise-a-jour{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    background-color: #68a7f885;
+    border: 1px solid #000000; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 1px 30px rgb(93, 105, 175);
+    padding: 2vh;
+    margin: 2vw;
+    width: 70%;
+    margin-left: 10%;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .Mise-a-jour hr {
+    color: #000000;
+}
