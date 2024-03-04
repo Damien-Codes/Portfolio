@@ -96,14 +96,11 @@ main .applications .Jeux img{
     width: 12vw;
     height: 12vh;
     border-radius: 25px;
-    filter: blur(2px);
-    transition: .3s ease-in-out;
 }
 main .applications .Jeux img:hover{
     width: 12vw;
     height: 12vh;
     border-radius: 25px;
-    filter: blur(0px);
 }
 main .applications .OpenSea{
     display: flex;
@@ -125,20 +122,17 @@ main .applications .OpenSea img{
     width: 12vw;
     height: 12vh;
     border-radius: 25px;
-    filter: blur(3px);
-    transition: .3s ease-in-out;
 }
 main .applications .OpenSea img:hover{
     width: 12vw;
     height: 12vh;
     border-radius: 25px;
-    filter: blur(0);
 }
 main .Mise-a-jour .Annees{
     display: flex;
     justify-content: center;
     column-count: 3;
-    column-gap: 50%;
+    column-gap: 59.2%;
     flex-wrap: wrap;
     background-color: #95c1faa6;
     border-radius: 5px;
@@ -193,3 +187,10 @@ main .Fin-page .sources{
     background-color: #95c1faa6;
     box-shadow: 0px 1px 30px rgb(93, 105, 175);
 }
+footer {
+    font-family: kanit;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
