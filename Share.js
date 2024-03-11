@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     shareLink.addEventListener("click", function (event) {
         event.preventDefault();
 
-        const customShareUrl = "https://damien-codes.github.io/Portfolio/index.html";
+        const customShareUrl = "https://damien-codes.github.io/Portfolio/";
         const shareTitle = document.title;
 
         if (navigator.share) {
