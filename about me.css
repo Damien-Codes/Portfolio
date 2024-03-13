@@ -1,5 +1,5 @@
 body{
-    background-color: #FF914D;
+    background-color: #b82121;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -87,7 +87,7 @@ a{
 .about {
     padding: 90px 0 90px;
     margin-right: 15vw;
-    background-color: #00000021;
+    background-color: #b82121;
     margin-left: 1vw;
     margin-right: 0.5vw;
     border-radius: 10px;
@@ -126,7 +126,7 @@ a{
 /* start Services */
 
 .services {
-    background-color: #FF914D;
+    background-color: #b82121;
     text-align: center;
     margin-top: 3vw;
     margin-bottom: 3vw;
@@ -142,7 +142,7 @@ a{
   }
   
   .services .boxs .box {
-    background-color: #00000021;
+    background-color: #b82121;
     padding: 40px 6px;
     margin: 0.6vw;
     padding-bottom: 2vh;
@@ -184,7 +184,7 @@ a{
   }
   
   .portfolio .boxs .box {
-    background-color: #00000021;
+    background-color: #b82121;
     margin: 0.6vw;
     width: 30%;
     border-radius: 10px;
@@ -346,7 +346,7 @@ a{
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-color: #1c1e22;
+        background-color: #b82121;
     }
     header nav .nav-links.active{
         top: 100%;
@@ -361,7 +361,7 @@ a{
     }
     header nav .nav-links a.active,
     header nav .nav-links a:hover{
-        background-color: #ffaa17;
+        background-color: #b82121;
         color: #1c1e22;
     }
 }

@@ -1,5 +1,6 @@
 body{
-    background-color: #F0C146;
+    /* background-color: #F0C146; ancienne couleur*/
+    background-color: #b82121;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -176,7 +177,7 @@ footer{
 	width: 60%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #fff44f;
+	background-color: #b82121;
 	transition: .4s;
 }
 
@@ -186,7 +187,7 @@ footer{
 	width: 100%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #fff44f;
+	background-color: #b82121;
 	top: -10px;
 	left: 0;
 	transition: .4s;
@@ -198,7 +199,7 @@ footer{
 	width: 100%;
 	height: 3px;
 	border-radius: 1.5px;
-	background-color: #fff44f;
+	background-color: #b82121;
 	top: 10px;
 	left: 0;
 	transition: .4s;
@@ -303,7 +304,7 @@ nav li:hover .submenu {
         display: none;
       }
     body{
-        background-color: #F0C146;
+        background-color: #b82121;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -444,7 +445,7 @@ nav li:hover .submenu {
         display: none;
       }
     body{
-        background-color: #F0C146;
+        background-color: #b82121;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -585,7 +586,7 @@ nav li:hover .submenu {
         display: none;
       }
     body{
-        background-color: #F0C146;
+        background-color: #b82121;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -726,7 +727,7 @@ nav li:hover .submenu {
         display: none;
       }
     body{
-        background-color: #F0C146;
+        background-color: #b82121;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -868,7 +869,7 @@ nav li:hover .submenu {
         display: block;
       }
     body{
-        background-color: #F0C146;
+        background-color: #b82121;
         margin: 0px;
         padding: 0px;
         width: 100%;

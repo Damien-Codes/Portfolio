@@ -1,5 +1,5 @@
 body{
-    background-color: #8d8c8c;
+    background-color: #b82121;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -46,7 +46,7 @@ main .sujet{
     justify-content: center;
     column-count: 3;
     flex-wrap: wrap;
-    background-color: #b1b5b9;
+    background-color: #b82121;
     border-radius: 5px;
     box-shadow: 0px 1px 30px #636161bb;
     padding: 2vh;
@@ -67,7 +67,7 @@ main .TipTop{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b1b5b9;
+    background-color: #b82121;
     border-radius: 5px;
     box-shadow: 0px 1px 30px #636161bb;
     padding: 2vh;
@@ -86,7 +86,7 @@ main .TipTop img{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b1b5b9;
+    background-color: #b82121;
     border-radius: 5px;
     box-shadow: 0px 1px 30px #636161bb;
     padding: 2vh;
@@ -101,7 +101,7 @@ main .Mise-a-jour .Annees{
     column-count: 3;
     column-gap: 59.2%;
     flex-wrap: wrap;
-    background-color: #b1b5b9;
+    background-color: #b82121;
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0px 1px 30px #636161bb;
     padding: 2vh;
@@ -116,7 +116,7 @@ main .Mise-a-jour .Phase1{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b1b5b9;
+    background-color: #b82121;
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0px 1px 30px #636161bb;
     padding: 2vh;
@@ -131,7 +131,7 @@ main .Fin-page{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b1b5b9;
+    background-color: #b82121;
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0px 1px 30px #636161bb;
     padding: 2vh;
@@ -144,7 +144,7 @@ main .Fin-page .outils{
     width: 12vw;
     height: 12vh;
     border-radius: 25px;
-    background-color: #b1b5b9;
+    background-color: #b82121;
     box-shadow: 0px 1px 30px #636161bb;
     padding-bottom: 2vh;
 }
@@ -152,7 +152,7 @@ main .Fin-page .sources{
     width: 12vw;
     height: 12vh;
     border-radius: 25px;
-    background-color: #b1b5b9;
+    background-color: #b82121;
     box-shadow: 0px 1px 30px #636161bb;
     padding-bottom: 2vh;
 }
