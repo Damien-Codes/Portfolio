@@ -40,11 +40,10 @@ a{
     left: 11vw;
     text-align: center;
     color: #000000;
-    background-color: #eee;
     border-radius: 10px;
-    -moz-box-shadow: 6px 6px 12px #888;
-    -webkit-box-shadow: 6px 6px 12px #888;
-    box-shadow:6px 6px 12px #888;
+    -moz-box-shadow: 3px 3px 12px #000000;
+    -webkit-box-shadow: 3px 3px 12px #000000;
+    box-shadow:3px 3px 12px #000000;
 }
 .content{
     display: none;
@@ -74,10 +73,10 @@ a{
     height: 300px;
     background: #333;
     border-radius: 10px;
-    -moz-box-shadow: 6px 6px 12px #888;
-    -webkit-box-shadow: 6px 6px 12px #888;
-    box-shadow:6px 6px 12px #888;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    -moz-box-shadow: 2px 5px 20px #000000;
+    -webkit-box-shadow: 2px 5px 20px #000000;
+    box-shadow:2px 5px 20px #000000;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .grid-item a img:hover {

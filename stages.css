@@ -46,9 +46,9 @@ main .sujet{
     justify-content: center;
     column-count: 3;
     flex-wrap: wrap;
-    background-color: #b82121;
+    background-color: #ff00004d;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #636161bb;
+    box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
     margin: 1vw;
     width: 80%;
@@ -67,9 +67,9 @@ main .TipTop{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b82121;
+    background-color: #ff00004d;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #636161bb;
+    box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
     margin: 1vw;
     width: 80%;
@@ -86,9 +86,9 @@ main .TipTop img{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b82121;
+    background-color: #ff00004d;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #636161bb;
+    box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
     margin: 1vw;
     width: 80%;
@@ -101,9 +101,9 @@ main .Mise-a-jour .Annees{
     column-count: 3;
     column-gap: 59.2%;
     flex-wrap: wrap;
-    background-color: #b82121;
+    background-color: #ff00004d;
     border-radius: 5px; /* Rounded corners */
-    box-shadow: 0px 1px 30px #636161bb;
+    box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
     margin: 1vw;
     width: 44vw;
@@ -118,7 +118,7 @@ main .Mise-a-jour .Phase1{
     flex-wrap: wrap;
     background-color: #b82121;
     border-radius: 5px; /* Rounded corners */
-    box-shadow: 0px 1px 30px #636161bb;
+    box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
     margin: 1vw;
     width: 80%;
@@ -131,30 +131,14 @@ main .Fin-page{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b82121;
+    background-color: #ff00004d;
     border-radius: 5px; /* Rounded corners */
-    box-shadow: 0px 1px 30px #636161bb;
+    box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
     margin: 1vw;
     width: 80%;
     font-family: Kanit;
     font-size: 20px;
-}
-main .Fin-page .outils{
-    width: 12vw;
-    height: 12vh;
-    border-radius: 25px;
-    background-color: #b82121;
-    box-shadow: 0px 1px 30px #636161bb;
-    padding-bottom: 2vh;
-}
-main .Fin-page .sources{
-    width: 12vw;
-    height: 12vh;
-    border-radius: 25px;
-    background-color: #b82121;
-    box-shadow: 0px 1px 30px #636161bb;
-    padding-bottom: 2vh;
 }
 footer {
     font-family: kanit;

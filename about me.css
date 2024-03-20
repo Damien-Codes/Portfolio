@@ -87,7 +87,7 @@ a{
 .about {
     padding: 90px 0 90px;
     margin-right: 15vw;
-    background-color: #b82121;
+    background-color: #ff00004d;
     margin-left: 1vw;
     margin-right: 0.5vw;
     border-radius: 10px;
@@ -142,7 +142,7 @@ a{
   }
   
   .services .boxs .box {
-    background-color: #b82121;
+    background-color: #ff00004d;
     padding: 40px 6px;
     margin: 0.6vw;
     padding-bottom: 2vh;
