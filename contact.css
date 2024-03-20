@@ -58,7 +58,7 @@ nav{
     margin-right: 48vw;
     margin-top: -28.7vw;
     line-height: 30%;
-    border-top: 60px solid #c59c9c;
+    border-top: 60px solid rgb(255, 239, 239);
     width: 40vw;
     z-index: 5;
 }
