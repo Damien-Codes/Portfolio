@@ -54,6 +54,7 @@ body {
     flex-wrap: wrap;
     width: 100vw;
     height: 71vh;
+    margin-bottom: 50px;
     padding-top: 5%;
   }
   .portfolio .box {
@@ -62,6 +63,7 @@ body {
     width: 28%;
     height: 33%;
     border-radius: 10px;
+    margin-bottom: 10vh;
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
   }
   
