@@ -176,7 +176,7 @@ main .Fin-page .outils{
     border-radius: 25px;
     background-color: #ff00004d;
     box-shadow: 0px 1px 30px #691d1d;
-    padding-bottom: 2vh;
+    padding-bottom: 3vh;
 }
 main .Fin-page .sources{
     width: 12vw;
@@ -184,7 +184,7 @@ main .Fin-page .sources{
     border-radius: 25px;
     background-color: #ff00004d;
     box-shadow: 0px 1px 30px #691d1d;
-    padding-bottom: 2vh;
+    padding-bottom: 3vh;
 }
 footer {
     font-family: kanit;
