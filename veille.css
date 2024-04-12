@@ -158,6 +158,9 @@ main .Mise-a-jour .Phase1{
     font-family: Kanit;
     font-size: 20px;
 }
+main .Mise-a-jour .Phase1 a{
+    width: 2%;
+}
 main .Fin-page{
     display: flex;
     justify-content: center;
