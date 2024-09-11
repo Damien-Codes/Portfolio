@@ -60,7 +60,6 @@ nav{
 
 /* services section css */
 .servicesText.card {
-    
     height: 280px;
     cursor: pointer;
   }
@@ -72,27 +71,31 @@ nav{
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
-    color: #008000;
-}
-.servicesText:hover {
-    border: 1px solid #008000;
-}
+
 
 /* social media icons styling */
 .social-icons {
-    font-size: 36px;
+    font-size: 900px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
-}
-.fab {
-    color: #000000;
+.fa-linkedin:hover{
+    color: #0066ff;
 }
 
 /* spacing on all sections */
 #body, #about, #services, #portfolio, #contact {
   background-color: #b82121;
   font-size: 110%;
+}
+
+#contact a{
+    font-size: 3vh;
+    cursor: pointer;
+    color: rgb(24, 22, 22);
+    text-align: center;
+}
+#contact .card{
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 }

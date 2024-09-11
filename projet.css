@@ -24,25 +24,6 @@ body {
     font-size: 300%;
 }
 
-.by{
-    margin: 0px;
-    padding: 0px;
-    font-family: kanit;
-    display: flex;
-    position: fixed;
-    top: 60%;
-    left: 90%;
-    transform: translate(-15%, -120%);
-    text-align: left;
-    writing-mode:tb-rl;
-    white-space: nowrap;
-    font-size: 400%;
-    margin-left: 3%;
-    margin-top: -3vw;
-    position: relative;
-    z-index: 9;
-}
-
 
   /* start Portfolio */
   

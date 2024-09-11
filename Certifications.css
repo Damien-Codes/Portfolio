@@ -94,23 +94,6 @@ a{
     z-index: auto;
 }
 
-.by{
-    font-family: kanit;
-    color: #00000070;
-    position: fixed;
-    top: 120%;
-    left: 91%;
-    transform: translate(-15%, 140%);
-    text-align: left;
-    writing-mode:tb-rl;
-    white-space: nowrap;
-    font-size: 400%;
-    margin-left: 3%;
-    margin-top: -59vw;
-    position: fixed; 
-    z-index: 9;
-}
-
 /* Pied de page */
 footer {
     font-family: Kanit;
