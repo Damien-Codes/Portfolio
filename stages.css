@@ -41,26 +41,6 @@ main{
     margin-left: 19%;
     top: 50vh;
 }
-main .sujet{
-    display: flex;
-    justify-content: center;
-    column-count: 3;
-    flex-wrap: wrap;
-    background-color: #ff00004d;
-    border-radius: 5px;
-    box-shadow: 0px 1px 30px #000000bb;
-    padding: 2vh;
-    margin: 1vw;
-    width: 80%;
-    font-family: Kanit;
-    font-size: 20px;
-}
-main .sujet img{
-    width: 25vw;
-    height: 25vh;
-    border-radius: 25px;
-    box-shadow: 0px 1px 30px rgb(81, 93, 161);
-}
 main .TipTop{
     display: flex;
     justify-content: center;
