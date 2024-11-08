@@ -1,7 +1,7 @@
 # Mon Portfolio
 
 ## Description
-Ce portfolio présente mon parcours ainsi que mes compétences en développement.
+Ce portfolio présente mon parcour ainsi que mes compétences en développement.
 
 ## Technologies utilisées :
 * HTML
