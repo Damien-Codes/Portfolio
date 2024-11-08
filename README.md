@@ -3,7 +3,7 @@
 ## Description
 Ce portfolio présente mon parcours ainsi que mes compétences en développement.
 
-## Technologies utilisées pour faire ce portfolio
+## Technologies utilisées :
 * HTML
 * CSS
 * JavaScript
