@@ -43,16 +43,25 @@ a{
 ul{
     list-style-type: none;
 }
-nav{
+nav {
     font-family: Kanit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
     vertical-align: center;
     display: flex;
     justify-content: center;
-}
+  }
 nav a{
     display: inline-block;
     text-decoration: none;
     font-size: 30px;
+    width: 10vw;
 }
 nav > ul > li{
     float: left;
@@ -490,9 +499,18 @@ nav li:hover .submenu {
     }
     nav{
         font-family: Kanit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 12px;
         vertical-align: center;
         display: flex;
         justify-content: center;
+
     }
     nav a{
         display: inline-block;
@@ -772,9 +790,9 @@ nav li:hover .submenu {
     }
     nav{
         font-family: Kanit;
-        vertical-align: center;
         display: flex;
-        justify-content: left;
+        justify-content: center;
+        align-items: center;
     }
     nav a{
         display: inline-block;
@@ -914,9 +932,9 @@ nav li:hover .submenu {
     }
     nav{
         font-family: Kanit;
-        vertical-align: center;
         display: flex;
-        justify-content: left;
+        justify-content: center;
+        align-items: center;
     }
     nav .nav{
         font-family: Kanit;
