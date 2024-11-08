@@ -4,8 +4,8 @@
 Ce portfolio présente mon parcour ainsi que mes compétences en développement.
 
 ## Technologies utilisées :
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 
 ## Contact
