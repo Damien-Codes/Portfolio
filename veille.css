@@ -1,5 +1,5 @@
 body{
-    background-color: #b82121;
+    background-color: #B5B0AD;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -46,9 +46,9 @@ main .sujet{
     justify-content: center;
     column-count: 3;
     flex-wrap: wrap;
-    background-color: #ff00004d;
+    background-color: #8d8682;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #691d1d;
+    box-shadow: 0px 1px 30px #d1cccc;
     padding: 2vh;
     margin: 1vw;
     width: 80%;
@@ -59,7 +59,7 @@ main .sujet img{
     width: 25vw;
     height: 25vh;
     border-radius: 25px;
-    box-shadow: 0px 1px 30px #691d1d;
+    box-shadow: 0px 1px 30px #d1cccc;
 }
 main .applications{
     display: flex;
@@ -67,9 +67,9 @@ main .applications{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #ff00004d;
+    background-color: #8d8682;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #691d1d;
+    box-shadow: 0px 1px 30px #d1cccc;
     padding: 2vh;
     margin: 1vw;
     width: 80%;
@@ -82,9 +82,9 @@ main .applications .Jeux {
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b82121;
+    background-color: #8d8682;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #691d1d;
+    box-shadow: 0px 1px 30px #a5a2a2;
     padding: 2vh;
     margin: 2vw;
     width: 25%;
@@ -108,9 +108,9 @@ main .applications .OpenSea{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b82121;
+    background-color: #8d8682;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #691d1d;
+    box-shadow: 0px 1px 30px #d1cccc;
     padding: 2vh;
     margin: 2vw;
     width: 25%;
@@ -134,9 +134,9 @@ main .Mise-a-jour .Annees{
     column-count: 3;
     column-gap: 59.2%;
     flex-wrap: wrap;
-    background-color: #ff00004d;
+    background-color: #8d8682;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #691d1d;
+    box-shadow: 0px 1px 30px #d1cccc;
     padding: 2vh;
     margin: 1vw;
     width: 44vw;
@@ -149,9 +149,9 @@ main .Mise-a-jour .Phase1{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #ff00004d;
+    background-color: #8d8682;
     border-radius: 5px;
-    box-shadow: 0px 1px 30px #691d1d;
+    box-shadow: 0px 1px 30px #d1cccc;
     padding: 2vh;
     margin: 1vw;
     width: 80%;
@@ -177,16 +177,16 @@ main .Fin-page .outils{
     width: 12vw;
     height: 12vh;
     border-radius: 25px;
-    background-color: #ff00004d;
-    box-shadow: 0px 1px 30px #691d1d;
+    background-color: #8d8682;
+    box-shadow: 0px 1px 30px #d1cccc;
     padding-bottom: 3vh;
 }
 main .Fin-page .sources{
     width: 12vw;
     height: 12vh;
     border-radius: 25px;
-    background-color: #ff00004d;
-    box-shadow: 0px 1px 30px #691d1d;
+    background-color: #8d8682;
+    box-shadow: 0px 1px 30px #d1cccc;
     padding-bottom: 3vh;
 }
 footer {
@@ -195,4 +195,4 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-  }
+}

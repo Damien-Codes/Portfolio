@@ -1,5 +1,5 @@
 body{
-    background-color: #b82121;
+    background-color: #B5B0AD;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -47,7 +47,7 @@ main .TipTop{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #ff00004d;
+    background-color: #6b6561;
     border-radius: 5px;
     box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
@@ -66,7 +66,7 @@ main .TipTop img{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #ff00004d;
+    background-color: #6b6561;
     border-radius: 5px;
     box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
@@ -81,7 +81,7 @@ main .Mise-a-jour .Annees{
     column-count: 3;
     column-gap: 59.2%;
     flex-wrap: wrap;
-    background-color: #ff00004d;
+    background-color: #6b6561;
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
@@ -96,7 +96,7 @@ main .Mise-a-jour .Phase1{
     column-count: 3;
     column-gap: 90px;
     flex-wrap: wrap;
-    background-color: #b82121;
+    background-color: #837f7c;
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0px 1px 30px #000000bb;
     padding: 2vh;
@@ -112,4 +112,4 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-  }
+}

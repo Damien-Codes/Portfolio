@@ -1,6 +1,6 @@
 body{
     /* background-color: #F0C146; ancienne couleur*/
-    background-color: #b82121;
+    background-color: #B5B0AD;
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -37,7 +37,7 @@ a{
 @keyframes loader {
     100%{
         transform: translateY(-30px);
-    }    
+    }
 }
 /* Fin du loader les 3 petit point */
 ul{
@@ -313,7 +313,7 @@ nav li:hover .submenu {
         display: none;
       }
     body{
-        background-color: #b82121;
+        background-color: #B5B0AD;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -454,7 +454,7 @@ nav li:hover .submenu {
         display: none;
       }
     body{
-        background-color: #b82121;
+        background-color: #B5B0AD;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -604,7 +604,7 @@ nav li:hover .submenu {
         display: none;
       }
     body{
-        background-color: #b82121;
+        background-color: #B5B0AD;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -745,7 +745,7 @@ nav li:hover .submenu {
         display: none;
       }
     body{
-        background-color: #b82121;
+        background-color: #B5B0AD;
         margin: 0px;
         padding: 0px;
         width: 100%;
@@ -887,7 +887,7 @@ nav li:hover .submenu {
         display: block;
       }
     body{
-        background-color: #b82121;
+        background-color: #B5B0AD;
         margin: 0px;
         padding: 0px;
         width: 100%;
