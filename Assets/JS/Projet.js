@@ -25,10 +25,10 @@ const cartes = [
     // App
     { type: 'app', title: 'Coffee shop', description: 'Description du projet', image: 'Images/Projets/Coffee shop.jpg', lien: 'Projets/Starducks/index.html' },
     // Web
-    { type: 'web', title: 'Clock', description: 'Description du projet', image: 'Images/Projets/Horloge.png', lien: 'Projets/Horloges/index.html' },
-    { type: 'web', title: 'Memory card', description: 'Description du projet', image: 'Images/Projets/Memory card.png', lien: 'Projets/Memory card/index.html' },
-    { type: 'web', title: 'Bill', description: 'Description du projet', image: 'Images/Projets/Facture.jpg', lien: 'Projets/Facture/index.html'},
-    { type: 'web', title: 'Locations', description: 'Description du projet', image: 'Images/Projets/Locations.jpg', lien: 'Projets/Location/index.html"' },
+    { type: 'web', title: 'Clock', description: 'Description du projet', image: 'Images/Projets/Horloge.png', lien: 'https://damien-codes.github.io/Horloge/' },
+    { type: 'web', title: 'Memory card', description: 'Description du projet', image: 'Images/Projets/Memory card.png', lien: 'https://damien-codes.github.io/Jeu-Memoire' },
+    { type: 'web', title: 'Bill', description: 'Description du projet', image: 'Images/Projets/Facture.jpg', lien: 'https://damien-codes.github.io/Facture'},
+    { type: 'web', title: 'Locations', description: 'Description du projet', image: 'Images/Projets/Locations.jpg', lien: 'Projets/Location/index.html' },
     { type: 'web', title: 'Zoo', description: 'Description du projet', image: 'Images/Projets/Zoo.jpg', lien: 'Projets/Zoo/index.html', span: 'ZOO' },
 ];
 
