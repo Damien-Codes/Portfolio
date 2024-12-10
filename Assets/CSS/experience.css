@@ -1,0 +1,89 @@
+body {
+  background-color: #7AB2D3;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.barreg{
+  display: flex;
+  float: left;
+  border-bottom: 6px solid black;
+  width: 20%;
+  margin-top: 3vw;
+  margin-left: 8vw;
+}
+.barred{
+  font-family: kanit;
+  display: flex;
+  float: right;
+  width: 20%;
+  margin-top: 3vw;
+  margin-left: 8vw;
+  margin-right: -3.3vw;
+  font-size: 300%;
+}
+.filters{
+  display: flex;
+  justify-content: center;
+  column-count: 3;
+  column-gap: 15vw;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 10vh;
+  margin: 2%;
+}
+
+#boutons {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  flex-wrap: wrap; /* Permet aux boutons de passer à la ligne si nécessaire */
+  gap: 20px; /* Espace entre les boutons */
+  padding-top: 15vh;
+}
+
+#boutons button {
+  /* Styles pour les boutons */
+  font-size: 1.5rem; /* Augmente la taille de la police */
+  padding: 1rem 2rem; /* Augmente le rembourrage */
+  border-radius: 5px;
+  background-color: #9dbdcd;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#conteneur-cartes {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5%;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  width: 99vw;
+}
+.carte {
+  --size: clamp(300px, 50vmin, 500px);
+  width: var(--size);
+  aspect-ratio: 4 / 3;
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+  color: #000;
+  transform: translateZ(0);
+  padding: 2vw;
+  padding-bottom: 3vw;
+  margin: 1vw;
+}
+.carte img {
+  display: flex; /* Active Flexbox pour le conteneur */
+  justify-content: center;
+  object-fit: cover;
+  --size: clamp(250px, 35vmin, 550px);
+  width: var(--size);
+}
+footer {
+  font-family: kanit;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

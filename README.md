@@ -7,6 +7,8 @@ Ce portfolio présente mon parcour ainsi que mes compétences en développement.
 * HTML5
 * CSS3
 * JavaScript
+
+## Upload avec :
 * Git
 
 ## Contact

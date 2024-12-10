@@ -1,0 +1,198 @@
+body{
+    background-color: #7AB2D3;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.barreg{
+    display: flex;
+    float: left;
+    border-bottom: 6px solid black;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+}
+.barred{
+    font-family: kanit;
+    display: flex;
+    float: right;
+    width: 20%;
+    margin-top: 3vw;
+    margin-left: 8vw;
+    margin-right: -3.3vw;
+    font-size: 300%;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+h1, h3, h4{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    margin: 2vw;
+    width: 55vw;
+    margin-left: 19%;
+    top: 50vh;
+}
+main .sujet{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    flex-wrap: wrap;
+    background-color: #8d8682;
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px #d1cccc;
+    padding: 2vh;
+    margin: 1vw;
+    width: 80%;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .sujet img{
+    width: 25vw;
+    height: 25vh;
+    border-radius: 25px;
+    box-shadow: 0px 1px 30px #d1cccc;
+}
+main .applications{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    background-color: #8d8682;
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px #d1cccc;
+    padding: 2vh;
+    margin: 1vw;
+    width: 80%;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .applications .Jeux {
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    background-color: #8d8682;
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px #a5a2a2;
+    padding: 2vh;
+    margin: 2vw;
+    width: 25%;
+    margin-left: 10%;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .applications .Jeux img{
+    width: 12vw;
+    height: 12vh;
+    border-radius: 25px;
+}
+main .applications .Jeux img:hover{
+    width: 12vw;
+    height: 12vh;
+    border-radius: 25px;
+}
+main .applications .OpenSea{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    background-color: #8d8682;
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px #d1cccc;
+    padding: 2vh;
+    margin: 2vw;
+    width: 25%;
+    margin-left: 10%;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .applications .OpenSea img{
+    width: 12vw;
+    height: 12vh;
+    border-radius: 25px;
+}
+main .applications .OpenSea img:hover{
+    width: 12vw;
+    height: 12vh;
+    border-radius: 25px;
+}
+main .Mise-a-jour .Annees{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 59.2%;
+    flex-wrap: wrap;
+    background-color: #8d8682;
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px #d1cccc;
+    padding: 2vh;
+    margin: 1vw;
+    width: 44vw;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .Mise-a-jour .Phase1{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    background-color: #8d8682;
+    border-radius: 5px;
+    box-shadow: 0px 1px 30px #d1cccc;
+    padding: 2vh;
+    margin: 1vw;
+    width: 80%;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .Mise-a-jour .Phase1 a{
+    width: 2%;
+}
+main .Fin-page{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    padding: 2vh;
+    margin: 1vw;
+    width: 80%;
+    font-family: Kanit;
+    font-size: 20px;
+}
+main .Fin-page .outils{
+    width: 12vw;
+    height: 12vh;
+    border-radius: 25px;
+    background-color: #8d8682;
+    box-shadow: 0px 1px 30px #d1cccc;
+    padding-bottom: 3vh;
+}
+main .Fin-page .sources{
+    width: 12vw;
+    height: 12vh;
+    border-radius: 25px;
+    background-color: #8d8682;
+    box-shadow: 0px 1px 30px #d1cccc;
+    padding-bottom: 3vh;
+}
+footer {
+    font-family: kanit;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

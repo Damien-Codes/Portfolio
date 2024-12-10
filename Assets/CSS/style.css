@@ -1,0 +1,1030 @@
+body{
+    /* background-color: #F0C146; ancienne couleur*/
+    background-color: #7AB2D3;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+/* Début du loader les 3 petit point */
+.loader-container{
+    font-family: Kanit;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 19vw;
+    margin-top: -18vh;
+    transition: opacity 2s ease-in-out;
+}
+.dot{
+    font-family: Kanit;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    margin: 0 15px;
+    animation: loader infinite 0.3s alternate;
+}
+.d2{
+    animation-delay: 0.01s;
+}
+.d3{
+    animation-delay: 0.1s;
+}
+@keyframes loader {
+    100%{
+        transform: translateY(-30px);
+    }
+}
+/* Fin du loader les 3 petit point */
+ul{
+    list-style-type: none;
+}
+nav {
+    font-family: Kanit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    width: 10vw;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul > li > a {
+    padding: 10px 20px;
+    margin-top: 5%;
+    color: black;
+}
+.sous-menu{
+    
+    display: none;
+}
+.by{
+    font-family: Kanit;
+    writing-mode:tb-rl;
+    white-space: nowrap;
+    font-size: 260%;
+    margin-top: 7vh;
+    margin-left: 3%;
+}
+h1{
+    font-family: Kanit;
+    margin: 0px;
+    padding: 5%;
+    text-align: center;
+    font-size: 12vw;
+    border-right: 6px solid black;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+h2{
+    font-family: Kanit;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    text-align: right;
+    font-size: 500%;
+    
+}
+
+/* Style pour les barres */
+.barred{
+    display: flex;
+    float: left;
+    border-top: 6px solid black;
+    width: 15%;
+    margin-left: 6%;
+}
+.barreg{
+    display: flex;
+    float: right;
+    border-top: 6px solid black;
+    width: 20%;
+    margin-right: 10%;
+}
+.barrec{
+    display: flex;
+    float: center;
+    border-top: 6px solid black;
+    width: 20%;
+}
+.date{
+    display: flex;
+    float: right;
+    margin-right: 7%;
+    margin-top: -5vh;
+}
+
+/* Pied de page */
+footer{
+    font-family: Kanit;
+    display: inline-block;
+    position: relative;
+    text-align:center;
+    bottom: 0;
+    border-top: 6px solid black;
+    width:30%;
+    margin-left: 33%;
+    padding-top: 3%;
+}
+
+
+/* début Style pour le menu */
+/* fin du style pour le menu */
+/* début de menu */
+.menu-wrap{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.toggler{
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	width: 60px;
+	height: 60px;
+	z-index: 3;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.hamburger{
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	width: 60px;
+	height: 60px;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: #111;
+}
+
+.hamburger>div{
+	position: absolute;
+	width: 60%;
+	height: 3px;
+	border-radius: 1.5px;
+	background-color: #7AB2D3;
+	transition: .4s;
+}
+
+.hamburger>div:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	border-radius: 1.5px;
+	background-color: #7AB2D3;
+	top: -10px;
+	left: 0;
+	transition: .4s;
+}
+
+.hamburger>div:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	border-radius: 1.5px;
+	background-color: #7AB2D3;
+	top: 10px;
+	left: 0;
+	transition: .4s;
+}
+
+.toggler:checked + .hamburger>div{
+	transform: rotate(135deg);
+}
+
+.toggler:checked:hover + .hamburger>div{
+	transform: rotate(225deg);
+}
+
+.toggler:checked + .hamburger>div:before, .toggler:checked + .hamburger>div:after{
+	top: 0;
+	transform: rotate(90deg);
+}
+
+.menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	transition: .6s;
+}
+
+.menu > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-150%) translateY(-50%);
+    width: 1600px;
+    height: 1600px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .6s;
+}
+
+.menu > div > div{
+	max-width: 90vw;
+	max-height: 100vh;
+	opacity: 0;
+	transition: .6s;
+}
+
+.menu > div > div > ul > li{
+	list-style: none;
+}
+
+.menu > div > div > ul > li > a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 550;
+	text-transform: uppercase;
+	margin: .5rem;
+	transition: .3s;
+	font-size: 1.2rem;
+	display: inline-block;
+}
+
+.menu > div > div > ul > li > a:hover{
+	color: #fff44f;
+}
+
+.toggler:checked ~ .menu{
+	visibility: visible;
+}
+
+.toggler:checked ~ .menu > div{
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.toggler:checked ~ .menu > div > div{
+	opacity: 1;
+}
+/* fin du menu  */
+nav li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 10000;
+}
+nav > ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Début des Media query */
+@media screen and (min-width: 2560px) {
+    /* Laptop 4K */
+    .menu-wrap {
+        display: none;
+      }
+    body{
+        background-color: #7AB2D3;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* Début du loader les 3 petit point */
+    .loader-container{
+        font-family: Kanit;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 19vw;
+        margin-top: -19vh;
+        transition: opacity 2s ease-in-out;
+    }
+    .dot{
+        font-family: Kanit;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #000;
+        margin: 0 15px;
+        animation: loader infinite 0.3s alternate;
+    }
+    .d2{
+        animation-delay: 0.01s;
+    }
+    .d3{
+        animation-delay: 0.1s;
+    }
+    @keyframes loader {
+        100%{
+            transform: translateY(-30px);
+        }    
+    }
+    /* Fin du loader les 3 petit point */
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        font-family: Kanit;
+        vertical-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    nav > ul > li{
+        float: left;
+        position: relative;
+    }
+    nav > ul > li > a {
+        padding: 10px 20px;
+        margin-top: 5%;
+        color: black;
+    }
+    .sous-menu{
+        
+        display: none;
+    }
+    .by{
+        font-family: Kanit;
+        writing-mode:tb-rl;
+        white-space: nowrap;
+        font-size: 240%;
+        margin-top: 7vh;
+        margin-left: 3%;
+    }
+    h1{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 5%;
+        text-align: center;
+        font-size: 12vw;
+        border-right: 6px solid black;
+        margin-top: 8%;
+        margin-right: 8%;
+    }
+    h2{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        text-align: right;
+        font-size: 500%;
+        
+    }
+    
+    /* Style pour les barres */
+    .barred{
+        display: flex;
+        float: left;
+        border-top: 6px solid black;
+        width: 15%;
+        margin-left: 6%;
+    }
+    .barreg{
+        display: flex;
+        float: right;
+        border-top: 6px solid black;
+        width: 20%;
+        margin-right: 10%;
+    }
+    .barrec{
+        display: flex;
+        float: center;
+        border-top: 6px solid black;
+        width: 20%;
+    }
+    .date{
+        display: flex;
+        float: right;
+        margin-right: 7%;
+        margin-top: -5vh;
+    }
+    
+    /* Pied de page */
+    footer{
+        display: inline-block;
+        position: absolute;
+        text-align:center;
+        bottom: 0;
+        border-top: 6px solid black;
+        width:30%;
+        margin-left: 33%;
+        padding-top: 3%;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+    /* Laptop L */
+    .menu-wrap {
+        display: none;
+      }
+    body{
+        background-color: #7AB2D3;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* Début du loader les 3 petit point */
+    .loader-container{
+        font-family: Kanit;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 12vw;
+        margin-top: -15vh;
+        transition: opacity 2s ease-in-out;
+    }
+    .dot{
+        font-family: Kanit;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #000;
+        margin: 0 15px;
+        animation: loader infinite 0.3s alternate;
+    }
+    .d2{
+        animation-delay: 0.01s;
+    }
+    .d3{
+        animation-delay: 0.1s;
+    }
+    @keyframes loader {
+        100%{
+            transform: translateY(-30px);
+        }    
+    }
+    /* Fin du loader les 3 petit point */
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        font-family: Kanit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 12px;
+        vertical-align: center;
+        display: flex;
+        justify-content: center;
+
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    nav > ul > li{
+        float: left;
+        position: relative;
+    }
+    nav > ul > li > a {
+        padding: 10px 20px;
+        margin-top: 5%;
+        color: black;
+      }
+    .sous-menu{
+        
+        display: none;
+    }
+    .by{
+        font-family: Kanit;
+        writing-mode:tb-rl;
+        white-space: nowrap;
+        font-size: 240%;
+        margin-top: 7vh;
+        margin-left: 3%;
+    }
+    h1{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 5%;
+        text-align: center;
+        font-size: 12vw;
+        border-right: 6px solid black;
+        margin-top: 8%;
+        margin-right: 8%;
+    }
+    h2{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        text-align: right;
+        font-size: 500%;
+        
+    }
+    
+    /* Style pour les barres */
+    .barred{
+        display: flex;
+        float: left;
+        border-top: 6px solid black;
+        width: 15%;
+        margin-left: 6%;
+    }
+    .barreg{
+        display: flex;
+        float: right;
+        border-top: 6px solid black;
+        width: 20%;
+        margin-right: 10%;
+    }
+    .barrec{
+        display: flex;
+        float: center;
+        border-top: 6px solid black;
+        width: 20%;
+    }
+    .date{
+        display: flex;
+        float: right;
+        margin-right: 7%;
+        margin-top: -5vh;
+    }
+    
+    /* Pied de page */
+    footer{
+        display: inline-block;
+        position: absolute;
+        text-align:center;
+        bottom: 0;
+        border-top: 6px solid black;
+        width:30%;
+        margin-left: 33%;
+        padding-top: 3%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* Laptop */
+    .menu-wrap {
+        display: none;
+      }
+    body{
+        background-color: #7AB2D3;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* Début du loader les 3 petit point */
+    .loader-container{
+        font-family: Kanit;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 13vw;
+        margin-top: -10vh;
+        transition: opacity 2s ease-in-out;
+    }
+    .dot{
+        font-family: Kanit;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #000;
+        margin: 0 15px;
+        animation: loader infinite 0.3s alternate;
+    }
+    .d2{
+        animation-delay: 0.01s;
+    }
+    .d3{
+        animation-delay: 0.1s;
+    }
+    @keyframes loader {
+        100%{
+            transform: translateY(-30px);
+        }    
+    }
+    /* Fin du loader les 3 petit point */
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        font-family: Kanit;
+        vertical-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 23px;
+    }
+    nav > ul > li{
+        float: left;
+        position: relative;
+    }
+    nav > ul > li > a {
+        padding: 10px 20px;
+        margin-top: 5%;
+        color: black;
+      }
+    .sous-menu{
+        
+        display: none;
+    }
+    .by{
+        font-family: Kanit;
+        writing-mode:tb-rl;
+        white-space: nowrap;
+        font-size: 240%;
+        margin-top: 20vh;
+        margin-left: 3%;
+    }
+    h1{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 5%;
+        text-align: center;
+        font-size: 12vw;
+        margin-top: 22%;
+        margin-right: 15vw;
+        border: hidden;
+    }
+    h2{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        text-align: right;
+        font-size: 500%;
+        
+    }
+    
+    /* Style pour les barres */
+    .barred{
+        display: flex;
+        float: left;
+        border-top: 6px solid black;
+        width: 15%;
+        margin-left: 6%;
+    }
+    .barreg{
+        display: flex;
+        float: right;
+        border-top: 6px solid black;
+        width: 20%;
+        margin-right: 10%;
+    }
+    .barrec{
+        display: flex;
+        float: center;
+        border-top: 6px solid black;
+        width: 20%;
+    }
+    .date{
+        display: flex;
+        float: right;
+        margin-right: 7%;
+        margin-top: -8vh;
+    }
+    
+    /* Pied de page */
+    footer{
+        display: inline-block;
+        position: absolute;
+        text-align:center;
+        bottom: 0;
+        border-top: 6px solid black;
+        width:30%;
+        margin-left: 33%;
+        padding-top: 3%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Laptop */
+    .menu-wrap {
+        display: none;
+      }
+    body{
+        background-color: #7AB2D3;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* Début du loader les 3 petit point */
+    .loader-container{
+        font-family: Kanit;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 13vw;
+        margin-top: -7vh;
+        transition: opacity 2s ease-in-out;
+    }
+    .dot{
+        font-family: Kanit;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #000;
+        margin: 0 15px;
+        animation: loader infinite 0.3s alternate;
+    }
+    .d2{
+        animation-delay: 0.01s;
+    }
+    .d3{
+        animation-delay: 0.1s;
+    }
+    @keyframes loader {
+        100%{
+            transform: translateY(-30px);
+        }    
+    }
+    /* Fin du loader les 3 petit point */
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        font-family: Kanit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    nav > ul > li{
+        float: left;
+        position: relative;
+    }
+    nav > ul > li > a {
+        padding: 10px 20px;
+        margin-top: 5%;
+        color: black;
+      }
+    .sous-menu{
+        
+        display: none;
+    }
+    .by{
+        font-family: Kanit;
+        writing-mode:tb-rl;
+        white-space: nowrap;
+        font-size: 240%;
+        margin-top: 25vh;
+        margin-left: 3%;
+    }
+    h1{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 5%;
+        text-align: center;
+        font-size: 12vw;
+        margin-top: 22%;
+        margin-right: 15vw;
+        border: hidden;
+    }
+    h2{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        text-align: right;
+        font-size: 500%;
+        
+    }
+    
+    /* Style pour les barres */
+    .barred{
+        display: flex;
+        float: left;
+        border-top: 6px solid black;
+        width: 15%;
+        margin-left: 6%;
+    }
+    .barreg{
+        display: flex;
+        float: right;
+        border-top: 6px solid black;
+        width: 20%;
+        margin-right: 10%;
+    }
+    .barrec{
+        display: flex;
+        float: center;
+        border-top: 6px solid black;
+        width: 20%;
+    }
+    .date{
+        display: flex;
+        float: right;
+        margin-top: -5vh;
+    }
+    
+    /* Pied de page */
+    footer{
+        display: inline-block;
+        position: absolute;
+        text-align:center;
+        bottom: 0;
+        border-top: 6px solid black;
+        width:30%;
+        margin-left: 33%;
+        padding-top: 3%;
+    }
+}
+
+/* media query for phone */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    /* Laptop */
+    .menu-wrap {
+        display: block;
+      }
+    body{
+        background-color: #7AB2D3;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* Début du loader les 3 petit point */
+    .loader-container{
+        font-family: Kanit;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 9vw;
+        margin-top: -4vh;
+        transition: opacity 2s ease-in-out;
+    }
+    .dot{
+        font-family: Kanit;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #000;
+        margin: 0 10px;
+        animation: loader infinite 0.3s alternate;
+    }
+    .d2{
+        animation-delay: 0.01s;
+    }
+    .d3{
+        animation-delay: 0.1s;
+    }
+    @keyframes loader {
+        100%{
+            transform: translateY(-10px);
+        }    
+    }
+    /* Fin du loader les 3 petit point */
+    ul{
+        list-style-type: none;
+    }
+    nav{
+        font-family: Kanit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .nav{
+        font-family: Kanit;
+        vertical-align: center;
+        display: none;
+        justify-content: left;
+    }
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    nav > ul > li{
+        float: left;
+        position: relative;
+    }
+    nav > ul > li > a {
+        padding: 10px 20px;
+        margin-top: 5%;
+        color: black;
+      }
+    .sous-menu{
+        
+        display: none;
+    }
+    .by{
+        font-family: Kanit;
+        writing-mode:tb-rl;
+        white-space: nowrap;
+        font-size: 7vw;
+        margin-top: 20vh;
+        margin-left: -2vw;
+    }
+    h1{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 5%;
+        text-align: center;
+        font-size: 13vw;
+        margin-top: 30vh;
+        margin-right: 30vw;
+        border: hidden;
+    }
+    h2{
+        font-family: Kanit;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30vh;
+        text-align: right;
+        font-size: 300%;
+        
+    }
+    
+    /* Style pour les barres */
+    .barred{
+        display: flex;
+        float: left;
+        border-top: hidden;
+        width: 15%;
+        margin-left: 6%;
+    }
+    .barreg{
+        display: flex;
+        float: right;
+        border-top: 6px solid black;
+        width: 47%;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+    .barrec{
+        display: flex;
+        float: center;
+        border-top: 6px solid black;
+        width: 20%;
+    }
+    .date{
+        display: flex;
+        float: right;
+        font-size: 10vw;
+        margin-top: -5vh;
+    }
+    
+    /* Pied de page */
+    footer{
+        display: none;
+        position: absolute;
+        text-align: left;
+        bottom: 0;
+        border-top: 6px solid black;
+        width: 45%;
+        margin-left: 50%;
+        padding-top: 8%;
+    }
+}
