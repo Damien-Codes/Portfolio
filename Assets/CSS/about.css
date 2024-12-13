@@ -56,17 +56,6 @@ nav{
     width: 100%;
     margin-top: -50%;
 }
-
-/* services section css */
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-  }
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
 .card-title {
     text-align: center;
 }
@@ -79,12 +68,6 @@ nav{
 }
 .fa-linkedin:hover{
     color: #0066ff;
-}
-
-/* spacing on all sections */
-#body, #about, #services, #portfolio, #contact {
-  background-color: #7AB2D3;
-  font-size: 110%;
 }
 
 #contact a{
