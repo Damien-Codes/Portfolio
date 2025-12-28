@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/icon.svg" type="image/x-icon">
+    <title>Portfolio Développeur</title>
+    <link rel="stylesheet" href="Assets/css/base.css">
+    <link rel="stylesheet" href="Assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="container">
+            <a href="#hero" class="logo" data-key="nav_logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about" data-key="nav_about">À Propos</a></li>
+                <li><a href="#projects" data-key="nav_projects">Projets</a></li>
+                <li><a href="#experience" data-key="nav_experience">Parcours</a></li>
+                <li><a href="#certifications" data-key="nav_certifications">Certifications</a></li>
+                <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+                <li class="lang-dropdown-container">
+                    <button id="lang-dropdown-btn" class="lang-dropdown-button" aria-label="Changer de langue">
+                        <i class="fa-solid fa-globe"></i>
+                        <span id="current-lang-label"></span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div id="lang-dropdown-menu" class="lang-dropdown-menu">
+                        <button class="lang-option" data-lang="fr">
+                            <span class="lang-flag">🇫🇷</span>
+                            <span class="lang-name" data-key="lang_french">Français</span>
+                        </button>
+                        <button class="lang-option" data-lang="en">
+                            <span class="lang-flag">🇬🇧</span>
+                            <span class="lang-name" data-key="lang_english">Anglais</span>
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container hero-content">
+            <h1 data-key="hero_title">Développeur <span class="highlight">Full Stack</span></h1>
+            <p data-key="hero_subtitle">Passionné par le développement Web, Applicatif et Mobile, j'explore
+                continuellement des technologies pour
+                la conception de solutions digitales.</p>
+            <a href="#projects" class="btn primary" data-key="hero_btn_projects">Voir mes projets</a>
+            <a href="Assets/CV.pdf" download class="btn btn-secondary" data-key="hero_btn_cv">Télécharger CV</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-titles-grid">
+                <h2 class="section-title" data-key="about_title">À Propos</h2>
+                <h2 class="section-title" data-key="tech_title">Technologies</h2>
+            </div>
+            <div class="about-content">
+                <div class="bio">
+                    <p data-key="about_bio">Développeur curieux et engagé, j'imagine et je créer des solutions
+                        digitales. Je m'efforce de
+                        suivre les évolutions de la tech, tout en m'inspirant simplement de mes intérêts personnels,
+                        comme les marchés financiers et le montage vidéo, qui me permettent d'avoir un équilibre
+                        entre analyse et créativité dans mes projets quotidiens.
+                        Chaque jour, je me réinvente personnellement en tirant des leçons de mes propres expériences,
+                        en adoptant une approche simple et efficace qui me permet de mieux structurer mes projets et de
+                        nouveaux défis
+                        qui me motivent de jour en jour.
+                    </p>
+                </div>
+
+                <div class="skills-section">
+
+                    <!-- First Carousel -->
+                    <div class="skills-carousel">
+                        <div class="skills-track">
+                            <div class="skill-item">
+                                <img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/css3.svg?color=%231572B6" alt="CSS3">
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python">
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.simpleicons.org/php/777BB4" alt="PHP">
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java">
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/flutter.svg?color=%2302569B"
+                                    alt="Flutter">
+                                <span>Flutter</span>
+                            </div>
+                            <!-- Duplicate for infinite scroll -->
+
+                            <div class="skill-item">
+                                <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python">
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/kotlin.svg?color=%237F52FF"
+                                    alt="Kotlin">
+                                <span>Kotlin</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/flutter.svg?color=%2302569B" alt="
+                                    Flutter">
+                                <span>Flutter</span>
+                            </div>
+                            <!-- Duplicate for infinite scroll -->
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/csharp.svg?color=%23684D95" alt="C#">
+                                <span>C#</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/mysql.svg?color=%23F29111" alt="SQL">
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/mongodb.svg?color=%2347A248"
+                                    alt="NoSQL">
+                                <span>NoSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Carousel (Reverse) -->
+                    <div class="skills-carousel reverse">
+                        <div class="skills-track">
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/git.svg?color=%23F05032" alt="Git">
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/github.svg?color=%23181717"
+                                    alt="GitHub">
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/gitlab.svg?color=%23FCA121"
+                                    alt="GitLab">
+                                <span>GitLab</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/unity.svg?color=%23222C36"
+                                    alt="Unity">
+                                <span>Unity</span>
+                            </div>
+
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/visualstudiocode.svg?color=%23007ACC"
+                                    alt="Vs Code">
+                                <span>Vs Code</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg"
+                                    alt="IntelliJ">
+                                <span>IntelliJ</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/docker.svg?color=%232496ED"
+                                    alt="Docker">
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://api.iconify.design/simple-icons/figma.svg?color=%23F24E1E"
+                                    alt="Figma">
+                                <span>Figma</span>
+                            </div>
+                            <!-- Duplicate for infinite scroll -->
+
+                            <div class="skill-item">
+                                <img src="https://cdn.simpleicons.org/git/F05032" alt="Git">
+                                <span>WordPress</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title" data-key="projects_main_title">✨ Mes Projets</h2>
+
+            <div class="projects-list">
+                <article class="project-card-alt reverse">
+                    <div class="project-visual">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-fan fa-beat-fade"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-key="project1_title">Personnalisation de Bouquet
+                            <div class="contact-badge">
+                                <i class="fa-solid fa-arrows-rotate fa-spin"></i> <span
+                                    data-key="project1_badge">Bientôt</span>
+                            </div>
+                        </h3>
+                        <p data-key="project1_desc">Développement d'une application dédiée à la personnalisation avancée
+                            de bouquets de fleurs
+                            pour une clientèle B2C et B2B, offrant également des options pour les bouquets de saison et
+                            d'événements. Le projet est axé sur l'intégration d'un configurateur visuel dynamique et 3D,
+                            permettant au client de composer son bouquet sur mesure en sélectionnant en temps réel les
+                            variétés, les couleurs et les accessoires. L'outil assure une gestion complète des
+                            contraintes de stock et un calcul de prix dynamique en fonction des choix, garantissant une
+                            expérience d'achat unique et sur mesure pour une satisfaction client maximale.</p>
+                        <div class="tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Git</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn secondary"><i class="fab fa-github"></i> <span
+                                    data-key="project1_badge">Bientôt</span></a>
+                            <a href="#" class="btn secondary"><i class="fas fa-external-link-alt"></i>
+                                <span data-key="project1_badge">Bientôt</span></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card-alt">
+                    <div class="project-visual">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-puzzle-piece fa-beat-fade"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-key="project2_title">YouTube PiP</h3>
+                        <p data-key="project2_desc">Développement d'une extension Web pour optimiser le multitâche. Le
+                            projet est axé sur
+                            l'intégration d'un mécanisme de lecture vidéo flottant, permettant de détacher n'importe
+                            quelle vidéo d'une page Web dans une fenêtre redimensionnable et toujours visible. L'outil
+                            assure une gestion complète des contrôles de lecture, pause et son intégration non intrusive
+                            garantit une productivité maximale.</p>
+                        <div class="tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Git</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Damien-Codes/Extension_Web" class="btn secondary"
+                                data-key="link_code">
+                                <i class="fab fa-github"></i> Voir le Code</a>
+                            <a href="https://damien-codes.github.io/Web-Extension-Site/" class="btn secondary"
+                                data-key="link_view"><i class="fas fa-external-link-alt"></i>
+                                Voir le Projet</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div id="more-projects" class="more-projects">
+                <!-- Additional Project 1 -->
+                <article class="project-card-alt reverse">
+                    <div class="project-visual">
+                        <div class="project-icon">
+                            <i class="fa-brands fa-spotify fa-beat"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-key="project3_title">SpotyFusion</h3>
+                        <p data-key="project3_desc">Développée pour enrichir l'engagement utilisateur de Spotify. Axé
+                            sur l'intégration front-end
+                            et l'exploitation de données tierces, utilise le flux OAuth 2.0 de l'API Spotify pour
+                            générer deux outils principaux : un Dashboard d'analyse musicale personnalisé et un Blind
+                            Test interactif.</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Vite</span>
+                            <span class="tag">Spotify API</span>
+                            <span class="tag">Git</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Damien-Codes/SpotyFusion" class="btn secondary"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Damien-Codes/SpotyFusion" class="btn secondary"
+                                data-key="link_view"><i class="fas fa-external-link-alt"></i>
+                                Voir le projet</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card-alt">
+                    <div class="project-visual">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-gamepad fa-beat-fade"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-key="project4_title">Doorception</h3>
+                        <p data-key="project4_desc">Conception et développement d'un Escape Game immersif en 3D. Le
+                            projet se concentre sur
+                            l'intégration de mécanismes de jeu interactifs et la résolution d'énigmes. Gestion avancée
+                            des physiques, des animations environnementales et d'un système d'inventaire pour une
+                            expérience complète.</p>
+                        <div class="tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">Escape Games</span>
+                            <span class="tag">Game Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/alexlastique/doorception" class="btn secondary"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn secondary" data-key="link_demo"><i class="fas fa-play"></i> Démo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card-alt reverse">
+                    <div class="project-visual">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-mug-hot fa-beat-fade"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-key="project5_title">StarDucks</h3>
+                        <p data-key="project5_desc">Conception et développement d'une application bureau pour la gestion
+                            des commandes de
+                            boissons.
+                            Le projet se concentre sur l'intégration d'une interface intuitive et de mécanismes de
+                            recherche et de filtrage.</p>
+                        <div class="tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Git</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Damien-Codes/Starducks" class="btn secondary"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://damien-codes.github.io/Starducks/" class="btn secondary"
+                                data-key="link_view"><i class="fas fa-external-link-alt"></i>
+                                Voir le projet</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="projects-cta">
+                <a href="#" id="show-more-btn" class="btn primary" data-key="show_more_btn"><i class="fas fa-plus"></i>
+                    Voir plus de projets</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title" data-key="experience_title">Mon Parcours</h2>
+
+            <div class="toggle-container">
+                <span id="label-pro" class="toggle-label active" onclick="setTimeline('pro')"
+                    data-key="label_pro">Professionnel</span>
+                <label class="toggle-switch-wrapper">
+                    <input type="checkbox" id="timeline-toggle" class="toggle-checkbox">
+                    <span class="toggle-slider"></span>
+                </label>
+                <span id="label-academic" class="toggle-label" onclick="setTimeline('academic')"
+                    data-key="label_academic">Académique</span>
+            </div>
+
+            <div id="timeline-pro" class="timeline fade-in">
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year" data-key="exp_pro1_year">2023 jusqu'à ce jour</div>
+                        <h3 data-key="exp_pro1_title">Vendeur Polyvalent CDI (étudiant)</h3>
+                        <h4 data-key="exp_pro1_company">La Vie Claire - Massy</h4>
+                        <p data-key="exp_pro1_desc">En tant que Vendeur Polyvalent, je suis en charge de l'expérience
+                            client, assurant bon
+                            conseil et orientation pour maximiser la satisfaction client, soutenir les objectifs de
+                            vente et la garantie des normes d'hygiène, de sécurité.</p>
+                        <div class="timeline-tags">
+                            <span class="tag" data-key="tag_customer_service">Conseil Client</span>
+                            <span class="tag">Merchandising</span>
+                            <span class="tag" data-key="tag_stock">Gestion des Stocks</span>
+                            <span class="tag" data-key="tag_teamwork">Travail d'Équipe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year" data-key="exp_pro2_year">2023 - 2024</div>
+                        <h3 data-key="exp_pro2_title">Développeur Web</h3>
+                        <h4 data-key="exp_pro2_company">Techfizz - Massy (Stage 8 semaines)</h4>
+                        <p data-key="exp_pro2_desc">Conception et développement complet d'un Outil de Formation,
+                            intégrant un système dédié aux
+                            formateurs pour la création, la gestion et la publication de leurs cours / modules ainsi que
+                            le module permettant aux utilisateurs finaux d'assister et de suivre les cours / modules.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year" data-key="exp_pro3_year">2022 - 2023</div>
+                        <h3 data-key="exp_pro3_title">Développeur Web</h3>
+                        <h4 data-key="exp_pro3_company">Tiptop - 75008 PARIS (Stage 8 semaines)</h4>
+                        <p data-key="exp_pro3_desc">En tant que Développeur Web, j'ai développé des outils marketing et
+                            d'automatisation, en me
+                            concentrant sur
+                            la création d'e-mails stylisés intégrés dans la plateforme Autotask PSA.
+                            Mon rôle comprenait également le développement complet d'un système d'affiliation en
+                            utilisant WordPress, ainsi que l'intégration et la personnalisation des fonctionnalités du
+                            site d'affiliation.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Autotask PSA</span>
+                            <span class="tag">WordPress</span>
+                            <span class="tag">AffiliateWP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year" data-key="exp_pro4_year">2021 - 2022</div>
+                        <h3 data-key="exp_pro4_title">Technicien Support Informatique</h3>
+                        <h4 data-key="exp_pro4_company">Tiptop - PARIS (Stage 8 semaines)</h4>
+                        <p data-key="exp_pro4_desc">En tant que Technicien Support Informatique, ma mission couvrait la
+                            gestion des incidents via
+                            Zammad et le suivi des projets informatiques via Trello. Mon rôle impliquait également
+                            l'assistance quotidienne à la maintenance du parc informatique de l'entreprise, ainsi que la
+                            sensibilisation des utilisateurs aux bonnes pratiques essentielles de sécurité
+                            informatique.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Zammad</span>
+                            <span class="tag">Trello</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="timeline-academic" class="timeline hidden fade-in">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year" data-key="exp_acad1_year">2025 - 2026</div>
+                        <h3 data-key="exp_acad1_title">Développeur Solutions Web et Mobile</h3>
+                        <h4 data-key="exp_acad1_company">Coding Factory by ESIEE-IT - 75015 PARIS (Bac +3)</h4>
+                        <p data-key="exp_acad1_desc">Cette formation en Alternance est axée sur trois piliers
+                            fondamentaux : la Sécurité
+                            des Applications et l'Architecture, la Conception de Solutions intégrant les Méthodes
+                            Agiles, et le Développement Multiplateforme.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Agiles</span>
+                            <span class="tag">Multiplateforme</span>
+                            <span class="tag">Architecture</span>
+                            <span class="tag">DevOps</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year" data-key="exp_acad2_year">2024 - 2025</div>
+                        <h3 data-key="exp_acad2_title">Concepteur Développeur d'Application</h3>
+                        <h4 data-key="exp_acad2_company">CESI - École d'ingénieurs, Paris Nanterre (Bac +3)</h4>
+                        <p data-key="exp_acad2_desc">Le Bachelor Concepteur Développeur d'Application est une formation
+                            spécialisée dans
+                            l'ingénierie logicielle. Le programme se concentre sur la modélisation de l'architecture
+                            logicielle et la construction de cahiers des charges. Il met également l'accent sur
+                            l'optimisation des solutions applicatives objet et la maîtrise du Déploiement Continu.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">DevOps</span>
+                            <span class="tag">UML</span>
+                            <span class="tag">Cahiers des charges</span>
+                            <span class="tag">Objet</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year" data-key="exp_acad3_year">2022 - 2024</div>
+                        <h3 data-key="exp_acad3_title">BTS SIO - Option SLAM</h3>
+                        <h4 data-key="exp_acad3_company">Lycée Parc de Vilgénis - Massy (Bac +2)</h4>
+                        <p data-key="exp_acad3_desc">Le BTS SIO Option SLAM est une formation axée sur la Conception et
+                            l'Administration de Bases
+                            de Données relationnelles, ainsi que sur la Création de Sites Web Dynamiques. Le programme
+                            couvre également la gestion de projet informatique et les besoins fonctionnels des
+                            organisations.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">MySQL</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-year" data-key="exp_acad4_year">2019 - 2022</div>
+                        <h3 data-key="exp_acad4_title">BAC PRO SN</h3>
+                        <h4 data-key="exp_acad4_company">Lycée Parc de Vilgénis - Massy</h4>
+                        <p data-key="exp_acad4_desc">Le Bac Pro Systèmes Numériques est une formation complète centrée
+                            sur l'exploitation et la
+                            maintenance des systèmes informatiques et des réseaux. Le programme est axé sur
+                            l'installation et la configuration des infrastructures, le diagnostic de pannes matérielles
+                            et logicielles, ainsi que la sécurisation de l'environnement numérique des organisations.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Configuration Réseau</span>
+                            <span class="tag">Configuration Routeur</span>
+                            <span class="tag">Configuration Switch</span>
+                            <span class="tag">Configuration Firewall</span>
+                            <span class="tag">Sécurité des Systèmes</span>
+                            <span class="tag">Infrastructures</span>
+                            <span class="tag">Cisco Packet Tracer</span>
+                            <span class="tag">Windows Server</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title" data-key="certifications_title">🎓 Mes Certifications</h2>
+
+            <div class="certifications-grid">
+
+                <!-- Certification 1 -->
+                <article class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3 data-key="cert1_title">Bac Pro Systèmes Numériques</h3>
+                        <p class="certification-school">Lycée Parc de Vilgénis - Massy</p>
+                        <p class="certification-description" data-key="cert1_desc">Formation centrée sur l'exploitation
+                            et la maintenance des
+                            systèmes informatiques et des réseaux. De l'installation à la configuration des
+                            infrastructures,
+                            le diagnostic de pannes matérielles et logicielles, ainsi que la sécurisation de
+                            l'environnement
+                            numérique des organisations.</p>
+                        <div class="tags">
+                            <span class="tag">Routeur</span>
+                            <span class="tag">Switch</span>
+                            <span class="tag">Firewall</span>
+                            <span class="tag">Infrastructures</span>
+                            <span class="tag">Windows Server</span>
+                            <span class="tag">Linux</span>
+                        </div>
+                        <div class="certification-footer">
+                            <span class="certification-year"><i class="fas fa-calendar-alt"></i> 2022</span>
+                            <a href="#Certifications">
+                                <span class="certification-level"><i class="fas fa-award"></i> Diplôme</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Certification 2 -->
+                <article class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3 data-key="cert2_title">BTS SIO Otption SLAM</h3>
+                        <p class="certification-school">Lycée Parc de Vilgénis - Massy</p>
+                        <p class="certification-description" data-key="cert2_desc">Formation axée sur la
+                            Conception et l'Administration de Bases de Données relationnelles, ainsi que sur la Création
+                            de Sites Web Dynamiques. Le programme couvre également la gestion de projet informatique et
+                            les besoins fonctionnels des organisations.</p>
+                        <div class="tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="certification-footer">
+                            <span class="certification-year"><i class="fas fa-calendar-alt"></i> 2024</span>
+                            <a href="#Certifications">
+                                <span class="certification-level"><i class="fas fa-award"></i> Diplôme</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Certification 3 -->
+                <article class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="certification-content">
+                        <h3 data-key="cert3_title">Développeur Solutions Web et Mobile</h3>
+                        <p class="certification-school">Coding Factory - 75015 PARIS</p>
+                        <p class="certification-description" data-key="cert3_desc">Formation axée sur la Conception et
+                            l'Administration de
+                            Bases de Données relationnelles, ainsi que sur la Création de Sites Web Dynamiques. Le
+                            programme couvre également la gestion de projet informatique et les besoins fonctionnels des
+                            organisations.</p>
+                        <div class="tags">
+                            <span class="tag">Agiles</span>
+                            <span class="tag">Multiplateforme</span>
+                            <span class="tag">Architecture</span>
+                            <span class="tag">DevOps</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">GitHub</span>
+                        </div>
+                        <div class="certification-footer">
+                            <span class="certification-year"><i class="fas fa-calendar"></i> 2023</span>
+                            <a href="#Certifications">
+                                <span class="certification-level"><i class="fas fa-award"></i> Diplôme</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- CTA Button -->
+            <div class="certifications-cta">
+                <a href="certifications.html" class="btn primary btn-large" data-key="view_all_certs">
+                    <i class="fas fa-th"></i> Voir mes certifications
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-header">
+                <div class="contact-badge">
+                    <i class="fas fa-phone"></i> <span data-key="contact_badge">Restons en contact</span>
+                </div>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p data-key="contact_github_desc">Découvrez mes projets open source</p>
+                    <a href="https://github.com/Damien-Codes" class="contact-btn">Damien-Codes</a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p data-key="contact_email_desc">Contactez-moi directement par email</p>
+                    <a href="mailto:pinodamien@gmail.com" class="contact-btn">pinodamien@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3 data-key="contact_phone">Téléphone</h3>
+                    <p data-key="contact_phone_desc">Appelez-moi directement</p>
+                    <a href="tel:0763678872" class="contact-btn">+33 7 83 67 88 72</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p data-key="contact_linkedin_desc">Connectez-vous professionnellement</p>
+                    <a href="https://www.linkedin.com/in/damien-pino/" class="contact-btn">Damien Pino</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa fa-briefcase"></i>
+                    </div>
+                    <h3>Fiverr</h3>
+                    <p data-key="contact_fiverr_desc">Suivez mes projets de Freelanceur</p>
+                    <a href="https://fr.fiverr.com/devdamien?public_mode=true" class="contact-btn">Damien</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p data-key="contact_instagram_desc">Contact direct pour les échanges professionnels ou
+                        collaborations.</p>
+                    <a href="https://www.instagram.com/skyll_box" class="contact-btn">@skyll_box</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p class="copyright" data-key="footer_copyright">© 2025 Portfolio. Développé par <span
+                    class="footer-name"><a href="https://github.com/Damien-Codes"
+                        rel="noopener noreferrer">Damien-Codes</a></span></p>
+        </div>
+    </footer>
+
+    <script src="Assets/js/translations.js"></script>
+    <script src="Assets/js/script.js"></script>
+</body>
+
+</html>
