@@ -1,0 +1,440 @@
+:root {
+    --bg-color: #0a0a0a;
+    --card-bg: rgba(15, 15, 15, 0.6);
+    --text-primary: #f8fafc;
+    --text-secondary: #9ca3af;
+    --accent-from: #dc2626;
+    --accent-to: #b91c1c;
+    --border-color: #334155;
+    --font-main: 'Inter', system-ui, sans-serif;
+    --transition: all 0.3s ease;
+}
+
+body.light-mode {
+    --bg-color: #eff6ff;
+    --card-bg: rgb(255 255 255 / 32%);
+    --text-primary: #000000;
+    --text-secondary: #5f5b5b;
+    --accent-from: #2563eb;
+    --accent-to: #d0daf5;
+    --border-color: #cbd5e1;
+}
+
+/* --- STYLE DU MENU DÉROULANT DE LANGUE --- */
+
+.lang-dropdown-container {
+    position: relative;
+}
+
+.lang-dropdown-button {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem;
+    transition: var(--transition);
+    font-weight: 600;
+    border-radius: 20px;
+    margin-left: 0.5rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+/* Cacher le label de langue actuelle */
+#current-lang-label {
+    display: none;
+}
+
+.lang-dropdown-button i:first-child {
+    font-size: 1rem;
+}
+
+.lang-dropdown-button i:last-child {
+    font-size: 0.7rem;
+    transition: transform 0.3s ease;
+}
+
+.lang-dropdown-button:hover {
+    background: linear-gradient(135deg, rgba(220, 38, 38, 0.2) 0%, rgba(185, 28, 28, 0.1) 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(220, 38, 38, 0.2);
+}
+
+.light-mode .lang-dropdown-button:hover {
+    background: linear-gradient(135deg, rgba(38, 81, 220, 0.194));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(38, 81, 220, 0.194);
+}
+
+.lang-dropdown-button.active i:last-child {
+    transform: rotate(180deg);
+}
+
+
+/* Menu déroulant */
+.lang-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.95) 0%, rgba(20, 20, 20, 0.95) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 0.5rem;
+    min-width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.lang-dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.lang-option {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 1rem;
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.lang-option:hover {
+    background: linear-gradient(135deg, rgba(220, 38, 38, 0.2) 0%, rgba(185, 28, 28, 0.1) 100%);
+    transform: translateX(3px);
+}
+
+.lang-option.active {
+    background: linear-gradient(135deg, rgba(220, 38, 38, 0.3) 0%, rgba(185, 28, 28, 0.2) 100%);
+    border-left: 3px solid var(--accent-from);
+}
+
+.light-mode .lang-option:hover {
+    background: linear-gradient(135deg, rgba(38, 81, 220, 0.194));
+    transform: translateX(3px);
+}
+
+.light-mode .lang-option.active {
+    background: linear-gradient(135deg, rgba(38, 81, 220, 0.194));
+    border-left: 3px solid var(--accent-from);
+}
+
+.lang-flag {
+    font-size: 1.2rem;
+}
+
+.lang-name {
+    flex: 1;
+    text-align: left;
+}
+
+/* Light mode adjustments */
+body.light-mode .lang-dropdown-menu {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 245, 245, 0.95) 100%);
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Style pour le Light Mode */
+.light-mode .lang-switch-button {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(37, 99, 235, 0.05) 100%);
+    border-color: rgba(59, 130, 246, 0.3);
+    color: var(--text-primary);
+}
+
+.light-mode .lang-switch-button:hover {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(37, 99, 235, 0.1) 100%);
+    border-color: var(--accent-from);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+}
+
+/* --- RESET & BASE --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    background-image: radial-gradient(circle at 50% 0%, #2a0a0a 0%, var(--bg-color) 70%);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+body.light-mode {
+    background-image: radial-gradient(circle at 50% 0%, #dbeafe 0%, var(--bg-color) 70%);
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- HEADER & NAVIGATION (FLOATING PILL) --- */
+#header {
+    position: fixed;
+    width: 90%;
+    max-width: 1000px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: rgba(10, 10, 10, 0.75);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: var(--transition);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.light-mode #header {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2.5rem;
+    max-width: 100%;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #ff6b6b 0%, #dc2626 50%, #b91c1c 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+.light-mode .logo {
+    background: linear-gradient(135deg, #6ea8d6 0%, #4a89c4 50%, #3b82f6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-links a {
+    color: var(--text-secondary);
+    font-weight: 500;
+    padding: 0.5rem 0;
+    position: relative;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    transition: var(--transition);
+}
+
+.nav-links a:hover {
+    color: var(--text-primary);
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    z-index: 1010;
+    color: var(--text-primary);
+}
+
+/* --- SECTIONS --- */
+section {
+    padding: 6rem 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+
+
+/* --- FOOTER --- */
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.copyright {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.footer-name {
+    color: var(--accent-from);
+    font-weight: 600;
+}
+
+/* --- RESPONSIVE HEADER/FOOTER --- */
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: calc(100% + 15px);
+        left: 50%;
+        transform: translateX(-50%) translateY(-20px);
+        width: 90%;
+        min-width: 300px;
+        background-color: rgba(10, 10, 10, 0.9);
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        flex-direction: column;
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        opacity: 0;
+        pointer-events: none;
+        transition: var(--transition);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    .nav-links.active {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+/* --- THEME TOGGLE BUTTON --- */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.662);
+    /* Couleur Dark Mode */
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: var(--transition);
+    /* Ceci assure la fluidité */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.light-mode .theme-toggle {
+    color: rgba(0, 123, 255, 0.662);
+    /* Couleur Light Mode */
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.theme-toggle:hover {
+    /* ✨ CORRECTION DE L'ANIMATION ✨ */
+    color: var(--accent-from);
+    transform: rotate(360deg) scale(1.1);
+}
+
+/* Règle d'affichage des icônes */
+.light-mode .theme-toggle .fa-sun {
+    display: none;
+}
+
+.light-mode .theme-toggle .fa-moon {
+    display: inline-block;
+}
+
+.theme-toggle .fa-moon {
+    display: none;
+}
+
+/* --- LIGHT MODE BUTTON OVERRIDES --- */
+.light-mode .btn.secondary {
+    border-color: rgba(59, 130, 246, 0.3);
+    color: var(--text-primary);
+    background-color: transparent;
+}
+
+.light-mode .btn.secondary:hover {
+    border-color: var(--accent-from);
+    background-color: rgba(59, 130, 246, 0.1);
+    color: var(--accent-from);
+}
+
+
+/* --- LIGHT MODE FOOTER --- */
+.light-mode footer {
+    background-color: transparent;
+    border-top: 1px solid rgba(46, 46, 46, 0.05);
+}
+
+.light-mode .copyright {
+    color: #000000;
+    opacity: 0.7;
+}
+
+.light-mode .footer-name {
+    color: var(--accent-from);
+}
