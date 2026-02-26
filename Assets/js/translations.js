@@ -78,6 +78,13 @@ const translations = {
         en: "Design and development of a desktop application for beverage order management. The project focuses on integrating an intuitive interface and search/filtering mechanisms."
     },
 
+    // Projet 6 - QuantScale
+    project6_title: { fr: "QuantScale", en: "QuantScale" },
+    project6_desc: {
+        fr: "Conception et développement d'une extension Chrome dédiée au calcul contextuel de taille de position pour les marchés financiers (Forex, Crypto, Or). L'outil intègre un calculateur multi-actifs avec gestion avancée du risque, sauvegarde locale du capital et du pourcentage de risque, et affichage en temps réel du lot, du risque en cash, du profit potentiel et du ratio Risk/Reward.",
+        en: "Design and development of a Chrome extension dedicated to contextual position size calculation for financial markets (Forex, Crypto, Gold). The tool integrates a multi-asset calculator with advanced risk management, local saving of capital and risk percentage, and real-time display of lot size, cash risk, potential profit, and Risk/Reward ratio."
+    },
+
     // Boutons d'action projets
     link_code: { fr: "Voir le Code", en: "View Code" },
     link_view: { fr: "Voir le Projet", en: "View Project" },

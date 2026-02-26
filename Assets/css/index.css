@@ -368,6 +368,7 @@
     padding: 2.5rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    min-height: 280px;
 }
 
 .project-card-alt.reverse {
@@ -442,6 +443,31 @@
 
 .light-mode .project-icon {
     filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.3));
+}
+
+.project-svg-icon {
+    width: 5rem;
+    height: 5rem;
+    color: var(--accent-from);
+    animation: svgBeatFade 2s ease-in-out infinite;
+}
+
+.light-mode .project-svg-icon {
+    color: #3b82f6;
+}
+
+@keyframes svgBeatFade {
+
+    0%,
+    100% {
+        opacity: 0.7;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.08);
+    }
 }
 
 .project-content h3 {
