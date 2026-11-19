@@ -78,11 +78,11 @@ const translations = {
         en: "Design and development of a desktop application for beverage order management. The project focuses on integrating an intuitive interface and search/filtering mechanisms."
     },
 
-    // Projet 6 - QuantScale
-    project6_title: { fr: "QuantScale", en: "QuantScale" },
+    // Projet 6 - EcoQuant
+    project6_title: { fr: "EcoQuant", en: "EcoQuant" },
     project6_desc: {
-        fr: "Conception et développement d'une extension Chrome dédiée au calcul contextuel de taille de position pour les marchés financiers (Forex, Crypto, Or). L'outil intègre un calculateur multi-actifs avec gestion avancée du risque, sauvegarde locale du capital et du pourcentage de risque, et affichage en temps réel du lot, du risque en cash, du profit potentiel et du ratio Risk/Reward.",
-        en: "Design and development of a Chrome extension dedicated to contextual position size calculation for financial markets (Forex, Crypto, Gold). The tool integrates a multi-asset calculator with advanced risk management, local saving of capital and risk percentage, and real-time display of lot size, cash risk, potential profit, and Risk/Reward ratio."
+        fr: "Conception et développement d'une extension Chrome dédiée au suivi en temps réel des annonces économiques et à la gestion du risque sur les marchés financiers. L'outil intègre un calendrier économique filtrable par devise et impact, des notifications personnalisées avant chaque publication avec affichage du résultat réel face aux prévisions, ainsi qu'un calculateur de taille de position avec récupération automatique des taux de change.",
+        en: "Design and development of a Chrome extension dedicated to real-time tracking of economic announcements and risk management in financial markets. The tool features an economic calendar filterable by currency and impact, custom notifications prior to each release displaying actual results versus forecasts, as well as a position size calculator with automatic exchange rate retrieval."
     },
 
     // Boutons d'action projets
@@ -108,7 +108,7 @@ const translations = {
         en: "As a Versatile Sales Associate, I am in charge of customer experience, providing good advice and guidance to maximize customer satisfaction, support sales objectives and guarantee hygiene and safety standards."
     },
 
-    // Expérience Professionnelle 2
+    // Expérience Professionnelle Quant
     exp_pro2_year: { fr: "2023 - 2024", en: "2023 - 2024" },
     exp_pro2_title: { fr: "Développeur Web", en: "Web Developer" },
     exp_pro2_company: { fr: "Techfizz - Massy (Stage 8 semaines)", en: "Techfizz - Massy (8-week Internship)" },
@@ -134,39 +134,47 @@ const translations = {
         fr: "En tant que Technicien Support Informatique, ma mission couvrait la gestion des incidents via Zammad et le suivi des projets informatiques via Trello. Mon rôle impliquait également l'assistance quotidienne à la maintenance du parc informatique de l'entreprise, ainsi que la sensibilisation des utilisateurs aux bonnes pratiques essentielles de sécurité informatique.",
         en: "As an IT Support Technician, my mission covered incident management via Zammad and IT project tracking via Trello. My role also involved daily assistance in maintaining the company's IT infrastructure, as well as raising user awareness of essential IT security best practices."
     },
-
-    // Expérience Académique 1
-    exp_acad1_year: { fr: "2025 - 2026", en: "2025 - 2026" },
-    exp_acad1_title: { fr: "Développeur Solutions Web et Mobile", en: "Web and Mobile Solutions Developer" },
-    exp_acad1_company: { fr: "Coding Factory by ESIEE-IT - 75015 PARIS (Bac +3)", en: "Coding Factory by ESIEE-IT - 75015 PARIS (Bachelor's Degree)" },
+    // Expérience Académique 1 (Bac +5)
+    exp_acad1_year: { fr: "2026 - 2028", en: "2026 - 2028" },
+    exp_acad1_title: { fr: "Manager en Ingénierie Informatique - Parcours Lead Dev", en: "IT Engineering Manager - Lead Dev Track" },
+    exp_acad1_company: { fr: "ESIEE-IT - 75015 PARIS (Bac +5)", en: "ESIEE-IT - 75015 PARIS (Master's Degree)" },
     exp_acad1_desc: {
+        fr: "Cette formation en Alternance est axée sur l'architecture logicielle avancée, le pilotage technique de projets (Lead Dev) et le management d'équipes agiles, incluant la conception d'applications complexes, le DevOps et la qualité logicielle.",
+        en: "This work-study program focuses on advanced software architecture, technical project leadership (Lead Dev), and agile team management, including complex application design, DevOps, and software quality."
+    },
+
+    // Expérience Académique 2 (Bac +3 ESIEE-IT)
+    exp_acad2_year: { fr: "2025 - 2026", en: "2025 - 2026" },
+    exp_acad2_title: { fr: "Développeur Solutions Web et Mobile", en: "Web and Mobile Solutions Developer" },
+    exp_acad2_company: { fr: "Coding Factory by ESIEE-IT - 75015 PARIS (Bac +3)", en: "Coding Factory by ESIEE-IT - 75015 PARIS (Bachelor's Degree)" },
+    exp_acad2_desc: {
         fr: "Cette formation en Alternance est axée sur trois piliers fondamentaux : la Sécurité des Applications et l'Architecture, la Conception de Solutions intégrant les Méthodes Agiles, et le Développement Multiplateforme.",
         en: "This work-study program focuses on three fundamental pillars: Application Security and Architecture, Solution Design integrating Agile Methods, and Cross-platform Development."
     },
 
-    // Expérience Académique 2
-    exp_acad2_year: { fr: "2024 - 2025", en: "2024 - 2025" },
-    exp_acad2_title: { fr: "Concepteur Développeur d'Application", en: "Application Designer Developer" },
-    exp_acad2_company: { fr: "CESI - École d'ingénieurs, Paris Nanterre (Bac +3)", en: "CESI - Engineering School, Paris Nanterre (Bachelor's Degree)" },
-    exp_acad2_desc: {
+    // Expérience Académique 3 (Bac +3 CESI)
+    exp_acad3_year: { fr: "2024 - 2025", en: "2024 - 2025" },
+    exp_acad3_title: { fr: "Concepteur Développeur d'Application", en: "Application Designer Developer" },
+    exp_acad3_company: { fr: "CESI - École d'ingénieurs, Paris Nanterre (Bac +3)", en: "CESI - Engineering School, Paris Nanterre (Bachelor's Degree)" },
+    exp_acad3_desc: {
         fr: "Le Bachelor Concepteur Développeur d'Application est une formation spécialisée dans l'ingénierie logicielle. Le programme se concentre sur la modélisation de l'architecture logicielle et la construction de cahiers des charges. Il met également l'accent sur l'optimisation des solutions applicatives objet et la maîtrise du Déploiement Continu.",
         en: "The Application Designer Developer Bachelor is a specialized training in software engineering. The program focuses on software architecture modeling and specifications document construction. It also emphasizes the optimization of object-oriented application solutions and mastery of Continuous Deployment."
     },
 
-    // Expérience Académique 3
-    exp_acad3_year: { fr: "2022 - 2024", en: "2022 - 2024" },
-    exp_acad3_title: { fr: "BTS SIO - Option SLAM", en: "BTS SIO - SLAM Option" },
-    exp_acad3_company: { fr: "Lycée Parc de Vilgénis - Massy (Bac +2)", en: "Lycée Parc de Vilgénis - Massy (2-year Degree)" },
-    exp_acad3_desc: {
+    // Expérience Académique 4 (BTS)
+    exp_acad4_year: { fr: "2022 - 2024", en: "2022 - 2024" },
+    exp_acad4_title: { fr: "BTS SIO - Option SLAM", en: "BTS SIO - SLAM Option" },
+    exp_acad4_company: { fr: "Lycée Parc de Vilgénis - Massy (Bac +2)", en: "Lycée Parc de Vilgénis - Massy (2-year Degree)" },
+    exp_acad4_desc: {
         fr: "Le BTS SIO Option SLAM est une formation axée sur la Conception et l'Administration de Bases de Données relationnelles, ainsi que sur la Création de Sites Web Dynamiques. Le programme couvre également la gestion de projet informatique et les besoins fonctionnels des organisations.",
         en: "The BTS SIO SLAM option is a training focused on relational Database Design and Administration, as well as Dynamic Website Creation. The program also covers IT project management and the functional needs of organizations."
     },
 
-    // Expérience Académique 4
-    exp_acad4_year: { fr: "2019 - 2022", en: "2019 - 2022" },
-    exp_acad4_title: { fr: "BAC PRO SN", en: "BAC PRO SN" },
-    exp_acad4_company: { fr: "Lycée Parc de Vilgénis - Massy", en: "Lycée Parc de Vilgénis - Massy" },
-    exp_acad4_desc: {
+    // Expérience Académique 5 (Bac Pro)
+    exp_acad5_year: { fr: "2019 - 2022", en: "2019 - 2022" },
+    exp_acad5_title: { fr: "BAC PRO SN", en: "BAC PRO SN" },
+    exp_acad5_company: { fr: "Lycée Parc de Vilgénis - Massy", en: "Lycée Parc de Vilgénis - Massy" },
+    exp_acad5_desc: {
         fr: "Le Bac Pro Systèmes Numériques est une formation complète centrée sur l'exploitation et la maintenance des systèmes informatiques et des réseaux. Le programme est axé sur l'installation et la configuration des infrastructures, le diagnostic de pannes matérielles et logicielles, ainsi que la sécurisation de l'environnement numérique des organisations.",
         en: "The Digital Systems Professional Baccalaureate is a comprehensive training centered on the operation and maintenance of computer systems and networks. The program focuses on infrastructure installation and configuration, hardware and software troubleshooting, as well as securing the digital environment of organizations."
     },
@@ -181,17 +189,17 @@ const translations = {
     // ============================================================
     certifications_title: { fr: "🎓 Mes Certifications", en: "🎓 My Certifications" },
     view_all_certs: { fr: "Voir mes certifications", en: "View my certifications" },
-    cert1_title: { fr: "Bac Pro Systèmes Numériques", en: "Bac Pro Digital Systems" },
+    cert1_title: { fr: "Concepteur Développeur d'Application", en: "Application Designer Developer" },
     cert1_desc: {
-        fr: "Formation centrée sur l'exploitation et la maintenance des systèmes informatiques et des réseaux. De l'installation à la configuration des infrastructures, le diagnostic de pannes matérielles et logicielles, ainsi que la sécurisation de l'environnement numérique des organisations.",
-        en: "Training focused on the operation and maintenance of computer systems and networks. From installation to configuration of infrastructure, diagnosis of hardware and software failures, and securing the digital environment of organizations."
+        fr: "Formation spécialisée en ingénierie logicielle, centrée sur la modélisation de l'architecture logicielle, la rédaction de cahiers des charges, le développement orienté objet et le déploiement continu.",
+        en: "Training specialized in software engineering, focused on software architecture modeling, specifications drafting, object-oriented development, and continuous deployment."
     },
-    cert2_title: { fr: "BTS SIO Option SLAM", en: "BTS SIO SLAM Option" },
+    cert2_title: { fr: "Développeur Solutions Web et Mobile", en: "Web and Mobile Solutions Developer" },
     cert2_desc: {
-        fr: "Formation axée sur la Conception et l'Administration de Bases de Données relationnelles, ainsi que sur la Création de Sites Web Dynamiques. Le programme couvre également la gestion de projet informatique et les besoins fonctionnels des organisations.",
-        en: "Training focused on the design and administration of relational databases, as well as the creation of dynamic websites. The program also covers IT project management and the functional needs of organizations."
+        fr: "Formation axée sur trois piliers fondamentaux : la Sécurité des Applications et l'Architecture, la Conception de Solutions intégrant les Méthodes Agiles, et le Développement Multiplateforme.",
+        en: "Training focused on three fundamental pillars: Application Security and Architecture, Solution Design integrating Agile Methods, and Cross-platform Development."
     },
-    cert3_title: { fr: "Développeur Solutions Web et Mobile", en: "Web and Mobile Solutions Developer" },
+    cert3_title: { fr: "BTS SIO - Option SLAM", en: "BTS SIO - SLAM Option" },
     cert3_desc: {
         fr: "Formation axée sur la Conception et l'Administration de Bases de Données relationnelles, ainsi que sur la Création de Sites Web Dynamiques. Le programme couvre également la gestion de projet informatique et les besoins fonctionnels des organisations.",
         en: "Training focused on the design and administration of relational databases, as well as the creation of dynamic websites. The program also covers IT project management and the functional needs of organizations."

@@ -857,6 +857,20 @@
     color: #2563eb;
 }
 
+/* Mise en avant de la certification centrale (effet podium) */
+@media (min-width: 992px) {
+    .certifications-grid .certification-card:nth-child(2) {
+        transform: scale(1.04);
+        border: 1px solid #dc2626;
+        box-shadow: #dc2626;
+        z-index: 2;
+    }
+
+    .certifications-grid .certification-card:nth-child(2):hover {
+        transform: scale(1.06) translateY(-5px);
+    }
+}
+
 /* --- CONTACT SECTION --- */
 .contact-section {
     background-color: var(--bg-color);
